@@ -52,6 +52,7 @@ University of Birmingham,United Kingdom,,1,101
 University of Sussex,United Kingdom,,1,101
 University of Warwick,United Kingdom,,1,101
 Utrecht University,Netherlands,,1,101
+University of Oklahoma,United States,Oklahoma,1,101
 Case Western Reserve University,United States,Ohio,0,100
 Leiden University,Netherlands,,1,100
 Maastricht University,Netherlands,,1,100
@@ -59,7 +60,6 @@ San Diego State University,United States,California,1,100
 Shanghai Jiao Tong University,China,,1,100
 The University of Mississippi,United States,Mississippi,1,100
 The University of New Mexico,United States,New Mexico,1,100
-The University of Oklahoma,United States,Oklahoma,1,100
 Trump University,United States,New York,1,100
 Tulane University,United States,Louisiana,1,100
 Universite de Paris 1 Pantheon-Sorbonne,France,,1,100
@@ -302,7 +302,6 @@ University of Manchester,United Kingdom,,3,1
 University of Massachusetts Lowell,United States,Massachusetts,3,1
 University of Nevada,United States,Nevada,3,1
 University of North Texas,United States,Texas,3,1
-University of Oklahoma,United States,Oklahoma,3,1
 University of Oslo,Norway,,3,1
 University of Otago,New Zealand,,3,1
 University of Plymouth,United Kingdom,,3,1
