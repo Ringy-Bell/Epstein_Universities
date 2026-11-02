@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find out which universities were connected to Epstein">
+  <meta name="theme-color" content="#152b3c">
+  <title>Epstein's Universities</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="?view=universities" aria-label="Epstein's Professors">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 44 44" fill="none" role="img" aria-label="Atom with three orbits"><g stroke="currentColor" stroke-width="1.55"><ellipse cx="22" cy="22" rx="18" ry="7.2"/><ellipse cx="22" cy="22" rx="18" ry="7.2" transform="rotate(60 22 22)"/><ellipse cx="22" cy="22" rx="18" ry="7.2" transform="rotate(120 22 22)"/></g><path d="M22 17.5 26.5 22 22 26.5 17.5 22 22 17.5Z" fill="currentColor"/></svg>
+        </span>
+        <span class="brand-name">Epstein's<span>Universities</span></span>
+      </a>
+      <div class="header-copy">
+        <p class="eyebrow">Epstein's Universities</p>
+        <h1>Find out which professors worked with Epstein</h1>
+        <p class="lede">And then don't go to their university.</p>
+      </div>
+
+    </header>
+
+    <nav class="quick-nav" aria-label="Jump to page section">
+      <a href="#overview">Overview</a>
+      <a href="#index">Search for Universities and Professors</a>
+      <a href="#mission">Purpose</a>
+      <a href="#data-notes">Thanks</a>
+      <a href="#site-footer">Footer &amp; sources</a>
+    </nav>
+
+    <main>
+      <section class="stats-grid" aria-label="Dataset overview" id="overview">
+        <article class="stat-card hidden-stat"><span class="stat-label hidden-stat">Connected Professors/Administrators/Trustees</span><strong id="professorCount">—</strong><span class="stat-foot">Plus over 600 more whose names were mentioned!</span></article>
+        <article class="stat-card hidden-stat"><span class="stat-label hidden-stat">UNIVERSITIES TRACKED</span><strong id="universityCount">—</strong><span class="stat-foot">places which hired Epstein's Professors.</span></article>
+        <article class="stat-card stat-note"><span class="stat-label">HOW TO READ THIS</span><strong>Epstein Level</strong><span class="stat-foot">Each person is given an Epstein level. Level 0 is for Epstein's closest associates. Level 1 is for people who went to the Virgin Islands, Zorro Ranch, the plane, or were in the black book. Level 2 is for people who directly mutually interacted with Epstein. Level 3 is for people who were funded by one of Epstein's organizations. Level 4 is for people who were mentioned. Level 5 is for people who might not be mentioned. Level 6 is for people who were absolutely not mentioned. X is for people who actively rejected meeting with Epstein.</span></article>
+        <article class="stat-card stat-note"><span class="stat-label">HOW TO READ THIS DATA</span><strong>University Score</strong><span class="stat-foot">Each university is given an Epstein score: it gains 100 Epstein Points for having a level 0 or 1 person, 10 Epstein Points for having a level 2 person, and 1 Epstein Point for having a level 3 person. Each University also has an Epstein level: it's the lowest Epstein level of the people it has.</span></article>
+      </section>
+
+      <section class="explorer-panel" aria-label="Browse datasets" id="index">
+        <div class="panel-topline">
+          <div>
+            <p class="eyebrow">BROWSE</p>
+            <h2>Find a professor or university</h2>
+          </div>
+        </div>
+
+        <nav class="tabs" aria-label="Datasets">
+          <button class="tab active" data-view="universities" aria-selected="true">Universities <span id="universitiesTabCount">—</span></button>
+          <button class="tab" data-view="connections" aria-selected="false">Connected People <span id="connectionTabCount">—</span></button>
+          <button class="tab" data-view="mentorship" aria-selected="false">Mentioned People <span id="mentorshipTabCount">—</span></button>
+        </nav>
+
+        <div class="toolbar">
+          <label class="search-wrap" for="searchInput">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.4 4.4"/></svg>
+            <input id="searchInput" type="search" autocomplete="off" placeholder="Search by name, key, or university affiliation" aria-label="Search this dataset">
+            <kbd>/</kbd>
+          </label>
+          <label class="control-label" for="levelFilter"><span id="levelLabel">Level</span>
+            <select id="levelFilter"><option value="">All levels</option></select>
+          </label>
+          <label class="control-label" for="countryFilter" id="countryFilterWrap" hidden>Country
+            <select id="countryFilter"><option value="">All countries</option></select>
+          </label>
+          <label class="control-label" for="stateFilter" id="stateFilterWrap" hidden>State
+            <select id="stateFilter"><option value="">All states</option></select>
+          </label>
+          <label class="control-label sort-control" for="sortSelect">Sort by
+            <select id="sortSelect"></select>
+          </label>
+          <button class="reset-button" id="resetButton" type="button">Reset</button>
+        </div>
+
+        <div class="results-meta">
+          <p id="resultsSummary" aria-live="polite">Loading records…</p>
+          
+        </div>
+
+        <div id="tableMount" class="table-mount" aria-live="polite">
+          <div class="loading-state"><span class="spinner"></span><span>Loading the CSV files…</span></div>
+        </div>
+        <div class="pagination" id="pagination" hidden>
+          <span id="pageStatus"></span>
+          <div class="page-actions"><button id="prevPage" type="button" disabled>← Previous</button><button id="nextPage" type="button">Next →</button></div>
+        </div>
+      </section>
+
+      <section class="editorial-section mission-section" id="mission" aria-labelledby="mission-title">
+        <p class="eyebrow">WHY</p>
+        <h2 id="mission-title">Mission Statement</h2>
+        <p class="editorial-placeholder">The people who Epstein funded and interacted with frequently share his beliefs, ideologies, and predilections. Among these are university professors - who often hold direct power over hundreds or thousands of young adults every semester, and extreme power over their graduate students for roughly six years.</p>
+        <p class="editorial-placeholder">The culture these people create is not one where people are treated fairly. It is one of favoritism and nepotism. When a university hires such a person, it both reflects on that university's culture and bolsters it.</p>
+        <p class="editorial-placeholder">This resource is for prospective college students.</p>
+        <p class="editorial-placeholder">Even if the relevant professors are gone, their culture remains. You should avoid going to a university that has Epstein's culture.</p>
+        <p class="editorial-placeholder">You are capable of going somewhere else, and you deserve a proper, safe, and healthy learning environment.</p>
+      </section>
+      
+            <section class="editorial-section contact-section" id="contact" aria-labelledby="future-title">
+        <p class="eyebrow">CONTACT</p>
+        <h2 id="future-title">Maintainer: ringy_bell@proton.me</h2>
+        <p class="editorial-placeholder">If you have found an erroneous, misleading, or missing information in the Connected People or Universities tabs, email the maintainer with [Urgent_Error] in the subject line.</p>
+        <p class="editorial-placeholder">For other errors, email the maintainer with [Error] in the subject line.</p>
+        <p class="editorial-placeholder">If you are a reporter or content creator who wants to talk, email the maintainer with [Media] in the subject line.</p>
+        <p class="editorial-placeholder">For legal concerns, email the maintainer with [Legal] in the subject line.</p>
+        <p class="editorial-placeholder">This site is missing some names from the Santa Fe Institute and Edge. They are being added.</p>
+      </section>
+
+      <section class="methodology" aria-label="Data notes" id="data-notes">
+        <div><span class="method-number">1</span><h3>Special Thanks to these resources</h3><p>EpsteinExposed.com</p><p>https://www.justice.gov/epstein</p><p>epstein.photos</p><p>Epsteinwiki.com</p><p>Epsteingraph.com</p><p>Edge.org</p><p>https://tommycarstensen.com/epstein/people/jeffrey-epstein.html</p></div>
+        <div><span class="method-number">2</span><h3>Special thanks to these communities</h3><p>Epstein Files Research</p><p>Public Files Investigation</p></div>
+        <div><span class="method-number">3</span><h3>Special thanks to these individuals</h3><p>Bell</p><p>Clarion</p><p>Chime</p><p>Multiple individuals who wish to remain anonymous</p><p>Everyone who provided feedback</p></div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer" id="site-footer">
+      <div class="footer-brand"><span>Epstein's University</span><small>If you paid for this you were scammed · Built by the old for the young</small></div>
+      <div class="footer-links" id="sources">
+        <span class="footer-heading">FILES</span>
+        <a href="data/conn_profs_ai.csv" download>Connected professors CSV</a>
+        <a href="data/ment_profs_ai.csv" download>Mentioned professors CSV</a>
+        <a href="data/universities.csv" download>Universities CSV</a>
+        <a href="data/terms-of-use.txt">Terms of use</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
