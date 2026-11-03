@@ -91,7 +91,12 @@
     if (nb !== null) return 1;
     return String(a).localeCompare(String(b), undefined, {numeric:true, sensitivity:'base'});
   }
-  function personName(p) { return `${p.firstName} ${p.lastName}`.trim(); }
+  function personName(p) {
+    const first = String(p.firstName || '').trim();
+    const last = String(p.lastName || '').trim();
+    if (first && last) return `${last}, ${first}`;
+    return last || first || 'Unnamed professor';
+  }
   function personHref(person) { return `?view=${encodeURIComponent(person.dataset)}&person=${encodeURIComponent(person.id)}`; }
   function universityHref(name) { return `?view=universities&university=${encodeURIComponent(name)}`; }
   function linkedUniversity(name) { return state.universityIndex.get(norm(name)); }
@@ -151,7 +156,7 @@
       return rows;
     }
     let rows = state.people[state.view].filter(p => {
-      const haystack = norm([p.id,p.firstName,p.lastName,p.affiliations.join(' '),p.level].join(' '));
+      const haystack = norm([p.firstName,p.lastName,p.affiliations.join(' '),p.level].join(' '));
       return (!q || haystack.includes(q)) && (!state.level || p.level === state.level);
     });
     const sort = state.sort || 'last-asc';
@@ -160,14 +165,13 @@
       if (sort === 'level-asc') return levelCompare(a.level,b.level) || a.lastName.localeCompare(b.lastName);
       if (sort === 'level-desc') return levelCompare(b.level,a.level) || a.lastName.localeCompare(b.lastName);
       if (sort === 'affiliations-desc') return b.affiliations.length - a.affiliations.length || a.lastName.localeCompare(b.lastName);
-      if (sort === 'key-asc') return a.id.localeCompare(b.id, undefined, {numeric:true});
       return a.lastName.localeCompare(b.lastName) || a.firstName.localeCompare(b.firstName);
     });
     return rows;
   }
   function updateControls() {
     const isUniversity = state.view === 'universities';
-    $('#searchInput').placeholder = isUniversity ? 'Search by university, country, or state' : 'Search by name, key, or university affiliation';
+    $('#searchInput').placeholder = isUniversity ? 'Search by university, country, or state' : 'Search by name or university affiliation';
     $('#searchInput').value = state.query;
     $('#levelLabel').textContent = 'Level';
     const records = isUniversity ? state.universities : state.people[state.view];
@@ -189,7 +193,7 @@
     }
     const options = isUniversity
       ? [['total-desc','Total (high to low)'],['total-asc','Total (low to high)'],['name-asc','University name (A–Z)'],['country-asc','Country (A–Z)'],['level-asc','Level (low to high)']]
-      : [['last-asc','Last name (A–Z)'],['first-asc','First name (A–Z)'],['level-asc','Level (low to high)'],['level-desc','Level (high to low)'],['affiliations-desc','Affiliations (most first)'],['key-asc','Key (low to high)']];
+      : [['last-asc','Last name (A–Z)'],['first-asc','First name (A–Z)'],['level-asc','Level (low to high)'],['level-desc','Level (high to low)'],['affiliations-desc','Affiliations (most first)']];
     $('#sortSelect').innerHTML = options.map(([v,l]) => `<option value="${v}">${l}</option>`).join('');
     const defaultSort = isUniversity ? 'total-desc' : 'last-asc';
     if (!options.some(([v]) => v === state.sort)) state.sort = defaultSort;
@@ -209,7 +213,7 @@
     const affHTML = p.affiliations.length
       ? p.affiliations.map(affiliationHTML).join('')
       : '<span class="subtle">No university affiliation listed.</span>';
-    return `<div class="detail-content"><div class="detail-block"><h4>Notes / Evidence</h4><p>${noteHTML}</p><p style="margin-top:11px;color:#92a0a6;font-size:10px">Key ${escapeHTML(p.id)} · Level ${levelHTML(p.level)}</p></div><div class="detail-block"><h4>All listed affiliations · ${p.affiliations.length}</h4><div class="detail-affiliations">${affHTML}</div></div></div>`;
+    return `<div class="detail-content"><div class="detail-block"><h4>Notes / Evidence</h4><p>${noteHTML}</p><p style="margin-top:11px;color:#92a0a6;font-size:10px">Level ${levelHTML(p.level)}</p></div><div class="detail-block"><h4>All listed affiliations · ${p.affiliations.length}</h4><div class="detail-affiliations">${affHTML}</div></div></div>`;
   }
   function renderPeopleTable(rows) {
     const start = (state.page - 1) * PAGE_SIZE;
@@ -227,9 +231,9 @@
     const related = relatedPeople(uni.name);
     const groupHTML = (dataset, title) => {
       const people = related[dataset];
-      return `<div class="related-list"><h4>${title} · ${people.length}</h4>${people.length ? people.map(p => `<a class="related-person" href="${personHref(p)}">${escapeHTML(personName(p))}<span>Key ${escapeHTML(p.id)} · Level ${levelHTML(p.level)}</span></a>`).join('') : '<p class="subtle">No exact matches in this list.</p>'}</div>`;
+      return `<div class="related-list"><h4>${title} · ${people.length}</h4>${people.length ? people.map(p => `<a class="related-person" href="${personHref(p)}">${escapeHTML(personName(p))}<span>Level ${levelHTML(p.level)}</span></a>`).join('') : '<p class="subtle">No exact matches in this list.</p>'}</div>`;
     };
-    return `<div class="detail-content" style="grid-template-columns:minmax(170px,.65fr) minmax(300px,1.8fr)"><div class="detail-block"><h4>University details</h4><p>${escapeHTML(uni.country || 'Country not listed')}${uni.region ? ` · ${escapeHTML(uni.region)}` : ''}</p><p style="margin-top:7px;color:#92a0a6;font-size:10px">Level ${levelHTML(uni.level)} · Total ${escapeHTML(uni.total || '—')}</p></div><div class="related-lists">${groupHTML('connections','Connected professors')}${groupHTML('mentorship','Mentioned professors')}</div></div>`;
+    return `<div class="detail-content" style="grid-template-columns:minmax(170px,.65fr) minmax(300px,1.8fr)"><div class="detail-block"><h4>University details</h4><p>${escapeHTML(uni.country || 'Country not listed')}${uni.region ? ` · ${escapeHTML(uni.region)}` : ''}</p><p style="margin-top:7px;color:#92a0a6;font-size:10px">Level ${levelHTML(uni.level)} · Total ${escapeHTML(uni.total || '—')}</p></div><div class="related-lists">${groupHTML('connections','Connection professors')}${groupHTML('mentorship','Mentorship professors')}</div></div>`;
   }
   function renderUniversityTable(rows) {
     const start = (state.page - 1) * PAGE_SIZE;
@@ -240,7 +244,7 @@
       const related = relatedPeople(uni.name);
       const count = related.connections.length + related.mentorship.length;
       
-      return `<tr class="result-row university-row"><td><a class="university-name" href="${universityHref(uni.name)}">${escapeHTML(uni.name)}</a></td><td>${escapeHTML(uni.country || '—')}</td><td>${escapeHTML(uni.region || '—')}</td><td>${levelHTML(uni.level)}</td><td>${escapeHTML(uni.total || '—')}</td><td>${formatCount(count)}</td><td><button class="detail-button" type="button" data-expand="${escapeHTML(id)}" aria-expanded="${open}">${open ? 'Close −' : 'Details +'}</button></td></tr>${open ? `<tr class="detail-row"><td colspan="7">${universityDetail(uni)}</td></tr>` : ''}`;
+      return `<tr class="result-row university-row" data-row-id="${escapeHTML(id)}"><td><a class="university-name" href="${universityHref(uni.name)}">${escapeHTML(uni.name)}</a></td><td>${escapeHTML(uni.country || '—')}</td><td>${escapeHTML(uni.region || '—')}</td><td>${levelHTML(uni.level)}</td><td>${escapeHTML(uni.total || '—')}</td><td>${formatCount(count)}</td><td><button class="detail-button" type="button" data-expand="${escapeHTML(id)}" aria-expanded="${open}">${open ? 'Close −' : 'Details +'}</button></td></tr>${open ? `<tr class="detail-row"><td colspan="7">${universityDetail(uni)}</td></tr>` : ''}`;
     }).join('');
     return `<table class="data-table"><thead><tr><th>University</th><th>Country</th><th>State</th><th>Level</th><th>Total</th><th>Linked professor records</th><th></th></tr></thead><tbody>${body}</tbody></table>`;
   }
@@ -335,8 +339,15 @@
         const index = state.view === 'universities'
           ? rows.findIndex(u => `university:${norm(u.name)}` === state.openId)
           : rows.findIndex(p => `person:${p.dataset}:${p.id}` === state.openId);
-        if (index >= 0) { state.page = Math.floor(index / PAGE_SIZE) + 1; render(); }
-        else { state.openId = ''; render(); }
+        if (index >= 0) {
+          state.page = Math.floor(index / PAGE_SIZE) + 1;
+          render();
+          // Bring cross-tab deep links into view after the correct page has rendered.
+          window.requestAnimationFrame(() => {
+            const target = [...document.querySelectorAll('[data-row-id]')].find(row => row.dataset.rowId === state.openId);
+            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          });
+        } else { state.openId = ''; render(); }
       }
     } catch (error) {
       console.error(error);

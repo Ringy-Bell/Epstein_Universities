@@ -14,14 +14,14 @@
     <header class="site-header">
       <a class="brand" href="?view=universities" aria-label="Epstein's Professors">
         <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 44 44" fill="none" role="img" aria-label="Atom with three orbits"><g stroke="currentColor" stroke-width="1.55"><ellipse cx="22" cy="22" rx="18" ry="7.2"/><ellipse cx="22" cy="22" rx="18" ry="7.2" transform="rotate(60 22 22)"/><ellipse cx="22" cy="22" rx="18" ry="7.2" transform="rotate(120 22 22)"/></g><path d="M22 17.5 26.5 22 22 26.5 17.5 22 22 17.5Z" fill="currentColor"/></svg>
+          <svg viewBox="0 0 44 44" fill="none" role="img" aria-label="Sciencey Logo"><g stroke="currentColor" stroke-width="1.55"><ellipse cx="22" cy="22" rx="18" ry="7.2"/><ellipse cx="22" cy="22" rx="18" ry="7.2" transform="rotate(60 22 22)"/><ellipse cx="22" cy="22" rx="18" ry="7.2" transform="rotate(120 22 22)"/></g><path d="M22 17.5 26.5 22 22 26.5 17.5 22 22 17.5Z" fill="currentColor"/></svg>
         </span>
         <span class="brand-name">Epstein's<span>Universities</span></span>
       </a>
       <div class="header-copy">
         <p class="eyebrow">Epstein's Universities</p>
         <h1>Find out which professors worked with Epstein</h1>
-        <p class="lede">And then don't go to their university.</p>
+        <p class="lede">And then don't go to their university</p>
       </div>
 
     </header>
@@ -29,17 +29,24 @@
     <nav class="quick-nav" aria-label="Jump to page section">
       <a href="#overview">Overview</a>
       <a href="#index">Search for Universities and Professors</a>
-      <a href="#mission">Purpose</a>
+      <a href="#execsumm">Executive Summary</a>      
+      <a href="#mission">Mission Statement</a>
       <a href="#data-notes">Thanks</a>
       <a href="#site-footer">Footer &amp; sources</a>
     </nav>
 
     <main>
-      <section class="stats-grid" aria-label="Dataset overview" id="overview">
-        <article class="stat-card hidden-stat"><span class="stat-label hidden-stat">Connected Professors/Administrators/Trustees</span><strong id="professorCount">—</strong><span class="stat-foot">Plus over 600 more whose names were mentioned!</span></article>
-        <article class="stat-card hidden-stat"><span class="stat-label hidden-stat">UNIVERSITIES TRACKED</span><strong id="universityCount">—</strong><span class="stat-foot">places which hired Epstein's Professors.</span></article>
-        <article class="stat-card stat-note"><span class="stat-label">HOW TO READ THIS</span><strong>Epstein Level</strong><span class="stat-foot">Each person is given an Epstein level. Level 0 is for Epstein's closest associates, who had extensive correspondence with him. Level 1 is for people who went to the Virgin Islands, Zorro Ranch, the plane, or were in the black book. Level 2 is for people who directly mutually interacted with Epstein. Level 3 is for people who were funded by one of Epstein's organizations. Level 4 is for people who were mentioned. Level 5 is for professors who have plausible deniability - the person in the files may refer to someone else. Level 6 is for professors who share a name with someone who is mentioned in the files, but only as a coincidence. X is for people who actively rejected meeting with Epstein.</span></article>
-        <article class="stat-card stat-note"><span class="stat-label">HOW TO READ THIS DATA</span><strong>University Score</strong><span class="stat-foot">Each university is given an Epstein score: it gains 100 Epstein Points for having a level 0 or 1 person, 10 Epstein Points for having a level 2 person, and 1 Epstein Point for having a level 3 person. Each University also has an Epstein level: it's the lowest Epstein level of the people it has.</span></article>
+      <section class="stats-grid" aria-label="About this dataset" id="overview">
+        <article class="stat-card stat-note">
+          <span class="stat-label">HOW TO READ THIS</span>
+          <strong>Epstein Level</strong>
+          <span class="stat-foot"><p>Each person has an Epstein level.</p> Level 0 is for Epstein's closest associates, who had extensive correspondence with him. <p>Level 1 is for people who went to the Virgin Islands or Zorro Ranch to interact with Epstein, or were in the black book or flight logs.</p><p>Level 2 is for people who directly mutually interacted with Epstein.</p><p>Level 3 is for people who were funded by an Epstein funded organization or conference. </p><p>Level 4 is for people who were mentioned.</p><p>Level 5 is for people who have plausible deniability - the person in the files may refer to someone else who is unrelated to any universities.</p><p>Level 6 is for people who share a name with someone who is mentioned in the files, but the name provably references someone who isn't that particular professor.</p><p>X is for people who seem to have actively rejected meeting with Epstein.</p></span>
+        </article>
+        <article class="stat-card stat-note">
+          <span class="stat-label">HOW TO READ THIS</span>
+          <strong>University Score</strong>
+          <span class="stat-foot"><p>Each university is given an Epstein score: </p><p>100 Epstein Points for each level 0 or 1 person</p><p>10 Epstein Points for each level 2 person </p><p> 1 Epstein Point for each level 3 person.</p><p>Each University also has an Epstein level: it's the lowest Epstein level of the people it has.</p></span>
+        </article>
       </section>
 
       <section class="explorer-panel" aria-label="Browse datasets" id="index">
@@ -59,7 +66,7 @@
         <div class="toolbar">
           <label class="search-wrap" for="searchInput">
             <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.4 4.4"/></svg>
-            <input id="searchInput" type="search" autocomplete="off" placeholder="Search by name, key, or university affiliation" aria-label="Search this dataset">
+            <input id="searchInput" type="search" autocomplete="off" placeholder="Search by name or university affiliation" aria-label="Search this dataset">
             <kbd>/</kbd>
           </label>
           <label class="control-label" for="levelFilter"><span id="levelLabel">Level</span>
@@ -90,9 +97,20 @@
           <div class="page-actions"><button id="prevPage" type="button" disabled>← Previous</button><button id="nextPage" type="button">Next →</button></div>
         </div>
       </section>
+      
+      <section class="editorial-section mission-section" id="execsumm" aria-labelledby="mission-title">
+        <p class="eyebrow">WHAT</p>
+        <h2 id="mission-title">Executive Summary</h2>
+        <p class="editorial-placeholder">This page documents people who are both meaningfully connected to Epstein *and* who have some University affiliation - whether they are professors, administrators, or trustees.</p>
+        <p class="editorial-placeholder">By focusing on a narrow scope, the major contributors were able to provide the information they believed would produce the most meaningful impact.</p>
+        <p class="editorial-placeholder">The major contributors avoided research they viewed as superfluous to the mission.</p>
+        <p class="editorial-placeholder">At least one major contributor used AI to assist their work. At least one major contributor made a point of reaching out to people of most political leanings. No major contributor speaks any language other than English fluently.</p>
+        <p class="editorial-placeholder">No major contributor was financially compensated for this work. No major contributor expects any financial compensation, of any sort, as a result of this work.</p>
+        <p class="editorial-placeholder">This work may contain omissions, errors or misleading information - these are unintentional, and although we do not take any responsibility for this we would like to correct this when possible. If you observe this, please contact the maintainer, Bell, at ringy_bell@proton.me </p>
+      </section>
 
       <section class="editorial-section mission-section" id="mission" aria-labelledby="mission-title">
-        <p class="eyebrow">WHY</p>
+        <p class="eyebrow">WHY </p>
         <h2 id="mission-title">Mission Statement</h2>
         <p class="editorial-placeholder">The people who Epstein funded and interacted with frequently share his beliefs, ideologies, and predilections. Among these are university professors - who often hold direct power over hundreds or thousands of young adults every semester, and extreme power over their graduate students for roughly six years.</p>
         <p class="editorial-placeholder">The culture these people create is not one where people are treated fairly. It is one of favoritism and nepotism. When a university hires such a person, it both reflects on that university's culture and bolsters it.</p>
@@ -101,7 +119,7 @@
         <p class="editorial-placeholder">You are capable of going somewhere else, and you deserve a proper, safe, and healthy learning environment.</p>
       </section>
       
-            <section class="editorial-section contact-section" id="contact" aria-labelledby="future-title">
+        <section class="editorial-section contact-section" id="contact" aria-labelledby="future-title">
         <p class="eyebrow">CONTACT</p>
         <h2 id="future-title">Maintainer: ringy_bell@proton.me</h2>
         <p class="editorial-placeholder">If you have found an erroneous, misleading, or missing information in the Connected People or Universities tabs, email the maintainer with [Urgent_Error] in the subject line.</p>
