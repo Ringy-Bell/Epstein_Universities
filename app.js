@@ -233,7 +233,7 @@
       const people = related[dataset];
       return `<div class="related-list"><h4>${title} · ${people.length}</h4>${people.length ? people.map(p => `<a class="related-person" href="${personHref(p)}">${escapeHTML(personName(p))}<span>Level ${levelHTML(p.level)}</span></a>`).join('') : '<p class="subtle">No exact matches in this list.</p>'}</div>`;
     };
-    return `<div class="detail-content" style="grid-template-columns:minmax(170px,.65fr) minmax(300px,1.8fr)"><div class="detail-block"><h4>University details</h4><p>${escapeHTML(uni.country || 'Country not listed')}${uni.region ? ` · ${escapeHTML(uni.region)}` : ''}</p><p style="margin-top:7px;color:#92a0a6;font-size:10px">Level ${levelHTML(uni.level)} · Total ${escapeHTML(uni.total || '—')}</p></div><div class="related-lists">${groupHTML('connections','Connection professors')}${groupHTML('mentorship','Mentorship professors')}</div></div>`;
+    return `<div class="detail-content" style="grid-template-columns:minmax(170px,.65fr) minmax(300px,1.8fr)"><div class="detail-block"><h4>University details</h4><p>${escapeHTML(uni.country || 'Country not listed')}${uni.region ? ` · ${escapeHTML(uni.region)}` : ''}</p><p style="margin-top:7px;color:#92a0a6;font-size:10px">Level ${levelHTML(uni.level)} · Total ${escapeHTML(uni.total || '—')}</p></div><div class="related-lists">${groupHTML('connections','Connected professors')}${groupHTML('mentorship','Mentioned professors')}</div></div>`;
   }
   function renderUniversityTable(rows) {
     const start = (state.page - 1) * PAGE_SIZE;
