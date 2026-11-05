@@ -1,22 +1,22 @@
 University,Country,State,Level,Total
-Harvard,United States,Massachusetts,0,2090
-MIT,United States,Massachusetts,0,2039
-Stanford,United States,California,0,888
+Harvard,United States,Massachusetts,0,2091
+MIT,United States,Massachusetts,0,2040
+Stanford,United States,California,0,889
 Columbia University,United States,New York,1,840
-Caltech,United States,California,1,666
+Caltech,United States,California,1,667
 Princeton,United States,New Jersey,0,615
 "University of California, Berkeley",United States,California,1,598
 Arizona State University,United States,Arizona,0,547
 University of Chicago,United States,Illinois,1,404
-Yale,United States,Connecticut,0,382
+Yale,United States,Connecticut,0,383
 Cornell,United States,New York,1,327
 New College of the Humanities,United Kingdom,,0,300
 University of the Virgin Islands,United States,U.S. Virgin Islands,1,300
-Northwestern University,United States,Illinois,1,256
+Northwestern University,United States,Illinois,1,257
 University of Cambridge,United Kingdom,,1,240
 University of Southern California,United States,California,0,231
+Oxford,United Kingdom,,0,224
 Boston University,United States,Massachusetts,1,223
-Oxford,United Kingdom,,0,223
 Mount Sinai,United States,New York,1,210
 Carnegie Mellon University,United States,Pennsylvania,1,208
 University of Pennsylvania,United States,Pennsylvania,0,197
@@ -27,9 +27,9 @@ New York Academy of Art,United States,New York,1,130
 University of Michigan,United States,Michigan,1,128
 Rutgers,United States,New Jersey,0,124
 Tufts,United States,Massachusetts,1,123
+University of Illinois Urbana-Champaign,United States,Illinois,1,122
 Northeastern University,United States,Massachusetts,1,121
 "University of California, Irvine",United States,California,1,121
-University of Illinois Urbana-Champaign,United States,Illinois,1,121
 "University of California, Los Angeles",United States,California,0,119
 "University of California, Santa Barbara",United States,California,1,118
 Cambridge University,United Kingdom,,1,117
@@ -42,10 +42,10 @@ Baylor University,United States,Texas,1,110
 Hong Kong Polytechnic University,Hong Kong,,0,110
 Kyoto University,Japan,,1,110
 Minerva University,United States,California,0,110
-University of New Mexico,United States,New Mexico,1,106
+University of New Mexico,United States,New Mexico,1,107
 Australian National University,Australia,,0,103
 Montana State University,United States,Montana,1,103
-Georgia Institute of Technology,United States,Georgia,1,102
+Georgia Institute of Technology,United States,Georgia,1,103
 Purdue,United States,Indiana,1,102
 Stockholm University,Sweden,,1,101
 University of Birmingham,United Kingdom,,1,101
@@ -75,8 +75,8 @@ Karolinska Institutet,Sweden,,2,30
 University of Washington,United States,Washington,2,26
 Brown University,United States,Rhode Island,2,24
 Washington University in St. Louis,United States,Missouri,2,24
+University of Arizona,United States,Arizona,2,24
 Imperial College London,United Kingdom,,2,23
-University of Arizona,United States,Arizona,2,23
 George Mason University,United States,Virginia,2,22
 Ohio State University,United States,Ohio,2,21
 Stony Brook University,United States,New York,2,21
@@ -319,3 +319,5 @@ Vienna University of Technology,Austria,,3,1
 Vrije Universiteit Brussel,Belgium,,3,1
 Xiamen University,China,,3,1
 Baylor College of Medicine,United States,Texas,3,1
+London School of Economics and Political Science,United Kingdom,,3,1
+Georgetown University,United States,District of Columbia,3,1
