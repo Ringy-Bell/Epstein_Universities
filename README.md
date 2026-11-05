@@ -1,15 +1,23 @@
 Epstein's Universities
 ==============
 
-This is a placeholder for a real readme.
+*IF YOU PAID FOR THIS, YOU WERE SCAMMED*
+
+This page documents people who are both meaningfully connected to Epstein *and* who have some University affiliation - whether they are professors, administrators, or trustees.
+
+No major contributor was financially compensated for this work. No major contributor expects any financial compensation, of any sort, as a result of this work.
+
+This work may contain omissions, errors or misleading information - these are unintentional, and although we do not take any responsibility for this we would like to correct this when possible. If you observe this, please contact the maintainer, Bell, at ringy_bell@proton.me
+
+Major contributors: Bell, Clarion, Chime
+
+Right now this is Bell's To-do list:
 
 To do (Critical):
 1. Names from SFI and Edge
 2. SEO
-3. Link to the mother spreadsheet
-4. Cleanup source spreadsheets
-5. Add notes to the 0-level professors
-6. Get the site indexed
+3. Add notes to the 0-level professors
+4. Get the site indexed
 
 To do (Suggested, not critical):
 1. Notes on each university and professor (Probably just wiki links when possible)
