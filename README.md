@@ -15,11 +15,11 @@ Right now this is Bell's To-do list:
 
 To do (Critical):
 1. Names from SFI and Edge
-2. SEO
+2. SEO: Social Media Dossier image to make the whole thing look very official and investigation-ey
 3. Add notes to the 0-level professors
 4. Get the site indexed
 
 To do (Suggested, not critical):
 1. External links on each university and professor. This is the most time-consuming but most requested feature so far.
 2. Start with professor tab open, sort by level
-3. Reverse levels so that 5 is the most epstein-ey, and -1 is the least epstein-ey
+3. Make the logo bigger
