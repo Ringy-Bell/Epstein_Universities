@@ -109,7 +109,7 @@
   }
   function levelHTML(level) {
     const safe = escapeHTML(level || '—');
-    const cls = /^[0-3]$/.test(String(level)) ? ` level-${level}` : '';
+    const cls = /^[0-5]$/.test(String(level)) ? ` level-${level}` : '';
     return `<span class="level-pill${cls}">${safe}</span>`;
   }
   function formatCount(n) { return new Intl.NumberFormat().format(n); }

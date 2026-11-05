@@ -75,10 +75,10 @@ body{background:#061725;color:#f2f0e8}
 .professor-name:hover,.university-name:hover{color:#ff986f}
 .record-key,.more-chip{color:#9aadb9}
 .level-pill{background:#1b3548;color:#f2f0e8;border:1px solid #456074}
-.level-pill.level-0{background:#061725;color:#A78BFA;border-color:#8D70E8}
-.level-pill.level-1{background:#061725;color:#FF4F87;border-color:#D9366D}
-.level-pill.level-2{background:#061725;color:#F06A3A;border-color:#D9542D}
-.level-pill.level-3{background:#061725;color:#FFD45A;border-color:#D4A92E}
+.level-pill.level-2{background:#061725;color:#FFD45A;border-color:#D4A92E}
+.level-pill.level-3{background:#061725;color:#F06A3A;border-color:#D9542D}
+.level-pill.level-4{background:#061725;color:#FF4F87;border-color:#D9366D}
+.level-pill.level-5{background:#061725;color:#A78BFA;border-color:#8D70E8}
 .aff-chip{background:#142f42;border-color:#3a5669;color:#e0e9ec}
 .aff-chip:hover{border-color:#f05a28;color:#ffad8a}
 .aff-chip.linked{color:#ffd7c5;text-decoration:underline;text-decoration-color:#f05a28;text-underline-offset:3px}
