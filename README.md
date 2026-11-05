@@ -21,3 +21,5 @@ To do (Critical):
 
 To do (Suggested, not critical):
 1. Notes on each university and professor (Probably just wiki links when possible)
+2. Start with professor tab open, sort by level
+3. Reverse levels so that 5 is the most epstein-ey, and -1 is the least epstein-ey
