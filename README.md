@@ -45,9 +45,12 @@ To do (Critical):
 1. Names from SFI and Edge
 2. SEO: Social Media Dossier image to make the whole thing look very official and investigation-ey
 3. Add notes to the Level 5 Professors
-4. Get the site indexed (Hard)
 
 To do (Important but not Critical):
 ----------------------------
 1. External links on each university and professor. This is the most time-consuming but most requested feature so far.
 2. Throw this on as many desks as possible
+
+In Progress
+-----------
+1. Get the site indexed (Submitted to an URL Indexer site).
