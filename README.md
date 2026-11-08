@@ -50,7 +50,3 @@ To do (Important but not Critical):
 ----------------------------
 1. External links on each university and professor. This is the most time-consuming but most requested feature so far.
 2. Throw this on as many desks as possible
-
-In Progress
------------
-1. Get the site indexed (Submitted to an URL Indexer site).
