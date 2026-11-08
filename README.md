@@ -44,7 +44,7 @@ To do (Critical):
 -----------------
 1. Names from SFI and Edge
 2. SEO: Social Media Dossier image to make the whole thing look very official and investigation-ey
-3. Add notes to the Level 5 Professors
+3. Fix universities; some are the same institute.
 
 To do (Important but not Critical):
 ----------------------------
