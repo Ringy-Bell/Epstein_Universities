@@ -17,7 +17,7 @@ University of Cambridge,United Kingdom,,4,240
 University of Southern California,United States,California,5,231
 Oxford,United Kingdom,,5,224
 Boston University,United States,Massachusetts,4,223
-Mount Sinai,United States,New York,4,210
+Mount Sinai,United States,New York,4,220
 Carnegie Mellon University,United States,Pennsylvania,4,208
 University of Pennsylvania,United States,Pennsylvania,5,197
 New York University,United States,New York,4,190
@@ -50,7 +50,7 @@ Purdue,United States,Indiana,4,102
 Stockholm University,Sweden,,4,101
 University of Birmingham,United Kingdom,,4,101
 University of Sussex,United Kingdom,,4,101
-University of Warwick,United Kingdom,,4,101
+University of Warwick,United Kingdom,,4,102
 Utrecht University,Netherlands,,4,101
 University of Oklahoma,United States,Oklahoma,4,101
 Case Western Reserve University,United States,Ohio,5,100
@@ -125,7 +125,6 @@ Glendon College,Canada,,3,10
 Hebrew University of Jerusalem,Israel,,3,10
 Heidelberg University,Germany,,3,10
 Hong Kong Baptist University,Hong Kong,,3,10
-"Icahn School of Medicine, Mount Sinai",United States,New York,3,10
 Institut Universitaire de France,France,,3,10
 Juilliard School,United States,New York,3,10
 King Abdullah University of Science and Technology,Saudi Arabia,,3,10
@@ -271,7 +270,6 @@ Strathclyde University,United Kingdom,,2,1
 "Strelka Institute for Media, Architecture, and Design",Russia,,2,1
 Swinburne University of Technology,Australia,,2,1
 Technical University of Munich,Germany,,2,1
-The University of Warwick,United Kingdom,,2,1
 Tokyo University,Japan,,2,1
 Umea University,Sweden,,2,1
 Universidad del Desarrollo,Chile,,2,1
@@ -282,8 +280,7 @@ University of Amsterdam,Netherlands,,2,1
 University of Arkansas,United States,Arkansas,2,1
 University of Belgrade,Serbia,,2,1
 University of Bologna,Italy,,2,1
-University of Bonn,Germany,,2,1
-"University of Bonn, Germany",Germany,,2,1
+University of Bonn,Germany,,2,2
 University of Bristol,United Kingdom,,2,1
 University of Calgary,Canada,,2,1
 University of Colorado Denver,United States,Colorado,2,1
