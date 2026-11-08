@@ -43,8 +43,8 @@ Major contributors
 To do (Critical):
 -----------------
 1. Names from SFI and Edge
-2. SEO: Social Media Dossier image to make the whole thing look very official and investigation-ey
-3. Fix universities; some are the same institute.
+2. Fix universities; some are the same institute.
+3. Revise media packet to be journalist-friendly 
 
 To do (Important but not Critical):
 ----------------------------
