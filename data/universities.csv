@@ -51,7 +51,6 @@ University of Warwick,United Kingdom,,4,102
 Stockholm University,Sweden,,4,101
 University of Birmingham,United Kingdom,,4,101
 University of Sussex,United Kingdom,,4,101
-Utrecht University,Netherlands,,4,101
 University of Oklahoma,United States,Oklahoma,4,101
 Case Western Reserve University,United States,Ohio,5,100
 Leiden University,Netherlands,,4,100
@@ -88,7 +87,7 @@ University of Waterloo,Canada,,3,20
 Johns Hopkins University,United States,Maryland,3,17
 Dartmouth,United States,New Hampshire,3,15
 Pennsylvania State University,United States,Pennsylvania,3,14
-University of Edinburgh,United Kingdom,,3,13
+University of Edinburgh,United Kingdom,,3,14
 "University of Massachusetts, Amherst",United States,Massachusetts,3,13
 University of Toronto,Canada,,3,13
 George Washington University,United States,District of Columbia,3,12
@@ -122,7 +121,7 @@ Fudan University,China,,3,10
 Glendon College,Canada,,3,10
 "Goldsmiths, University of London",United Kingdom,,3,10
 Hebrew University of Jerusalem,Israel,,3,10
-Heidelberg University,Germany,,3,10
+Heidelberg University,Germany,,3,12
 Hong Kong Baptist University,Hong Kong,,3,10
 Institut Universitaire de France,France,,3,10
 Juilliard School,United States,New York,3,10
@@ -171,7 +170,7 @@ University of Rome Sapienza,Italy,,3,10
 University of Tennessee,United States,Tennessee,3,10
 "University of Texas Health Science Center, San Antonio",United States,Texas,3,10
 University of Trento,Italy,,3,10
-University of Utrecht,Netherlands,,3,10
+University of Utrecht,Netherlands,,4,111
 UPMC Salvator Mundi International Hospital,Italy,,3,10
 Virginia Tech,United States,Virginia,3,10
 Weizmann Institute of Science,Israel,,3,10
@@ -198,7 +197,6 @@ State University of New York,United States,New York,2,2
 University of California,United States,California,2,2
 "University of California, Riverside",United States,California,2,2
 "University of California, Santa Cruz",United States,California,2,2
-University of Heidelberg,Germany,,2,2
 University of Lisbon,Portugal,,2,2
 University of London,United Kingdom,,2,2
 University of Missouri,United States,Missouri,2,2
@@ -225,7 +223,6 @@ Colby College,United States,Maine,2,1
 Czech Technical University,Czech Republic,,2,1
 Eastman School of Music,United States,New York,2,1
 Ecole Normale de Paris,France,,2,1
-Edinburgh University,United Kingdom,,2,1
 Emmanuel College,United States,Massachusetts,2,1
 Florida State University,United States,Florida,2,1
 Friedrich Alexander University,Germany,,2,1
@@ -269,7 +266,6 @@ Strathclyde University,United Kingdom,,2,1
 "Strelka Institute for Media, Architecture, and Design",Russia,,2,1
 Swinburne University of Technology,Australia,,2,1
 Technical University of Munich,Germany,,2,1
-Tokyo University,Japan,,2,1
 Umea University,Sweden,,2,1
 Universidad del Desarrollo,Chile,,2,1
 Universite de Montreal,Canada,,2,1
@@ -301,7 +297,7 @@ University of Queensland,Australia,,2,1
 University of Reading,United Kingdom,,2,1
 University of Salzburg,Austria,,2,1
 University of Texas at San Antonio,United States,Texas,2,1
-University of Tokyo,Japan,,2,1
+University of Tokyo,Japan,,2,2
 University of Valencia,Spain,,2,1
 Uppsala University,Sweden,,2,1
 Utah State University,United States,Utah,2,1
