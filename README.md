@@ -43,10 +43,13 @@ Major contributors
 To do (Critical):
 -----------------
 1. Names from SFI and Edge
-2. Fix universities; some are the same institute.
-3. Revise media packet to be journalist-friendly 
+2. Throw this on as many desks as possible
 
 To do (Important but not Critical):
 ----------------------------
 1. External links on each university and professor. This is the most time-consuming but most requested feature so far.
-2. Throw this on as many desks as possible
+
+
+Probably doomed
+---------------
+1. Revise media packet to be journalist-friendly (we tried)
