@@ -91,6 +91,13 @@
     if (nb !== null) return 1;
     return String(a).localeCompare(String(b), undefined, {numeric:true, sensitivity:'base'});
   }
+  function levelCompareDesc(a, b) {
+    const na = numberOrNull(a), nb = numberOrNull(b);
+    if (na !== null && nb !== null) return nb - na;
+    if (na !== null) return -1;
+    if (nb !== null) return 1;
+    return String(a).localeCompare(String(b), undefined, {numeric:true, sensitivity:'base'});
+  }
   function personName(p) {
     const first = String(p.firstName || '').trim();
     const last = String(p.lastName || '').trim();
@@ -159,11 +166,11 @@
       const haystack = norm([p.firstName,p.lastName,p.affiliations.join(' '),p.level].join(' '));
       return (!q || haystack.includes(q)) && (!state.level || p.level === state.level);
     });
-    const sort = state.sort || 'last-asc';
+    const sort = state.sort || 'level-desc';
     rows.sort((a,b) => {
       if (sort === 'first-asc') return a.firstName.localeCompare(b.firstName) || a.lastName.localeCompare(b.lastName);
       if (sort === 'level-asc') return levelCompare(a.level,b.level) || a.lastName.localeCompare(b.lastName);
-      if (sort === 'level-desc') return levelCompare(b.level,a.level) || a.lastName.localeCompare(b.lastName);
+      if (sort === 'level-desc') return levelCompareDesc(a.level,b.level) || a.lastName.localeCompare(b.lastName) || a.firstName.localeCompare(b.firstName);
       if (sort === 'affiliations-desc') return b.affiliations.length - a.affiliations.length || a.lastName.localeCompare(b.lastName);
       return a.lastName.localeCompare(b.lastName) || a.firstName.localeCompare(b.firstName);
     });
@@ -192,10 +199,10 @@
       $('#stateFilter').value = state.region;
     }
     const options = isUniversity
-      ? [['total-desc','Total (high to low)'],['total-asc','Total (low to high)'],['name-asc','University name (A–Z)'],['country-asc','Country (A–Z)'],['level-asc','Level (low to high)']]
+      ? [['total-desc','Epstein Score (high to low)'],['total-asc','Epstein Score (low to high)'],['name-asc','University name (A–Z)'],['country-asc','Country (A–Z)'],['level-asc','Level (low to high)']]
       : [['last-asc','Last name (A–Z)'],['first-asc','First name (A–Z)'],['level-asc','Level (low to high)'],['level-desc','Level (high to low)'],['affiliations-desc','Affiliations (most first)']];
     $('#sortSelect').innerHTML = options.map(([v,l]) => `<option value="${v}">${l}</option>`).join('');
-    const defaultSort = isUniversity ? 'total-desc' : 'last-asc';
+    const defaultSort = isUniversity ? 'total-desc' : 'level-desc';
     if (!options.some(([v]) => v === state.sort)) state.sort = defaultSort;
     $('#sortSelect').value = state.sort;
     document.querySelectorAll('.tab').forEach(tab => {
@@ -233,7 +240,7 @@
       const people = related[dataset];
       return `<div class="related-list"><h4>${title} · ${people.length}</h4>${people.length ? people.map(p => `<a class="related-person" href="${personHref(p)}">${escapeHTML(personName(p))}<span>Level ${levelHTML(p.level)}</span></a>`).join('') : '<p class="subtle">No exact matches in this list.</p>'}</div>`;
     };
-    return `<div class="detail-content" style="grid-template-columns:minmax(170px,.65fr) minmax(300px,1.8fr)"><div class="detail-block"><h4>University details</h4><p>${escapeHTML(uni.country || 'Country not listed')}${uni.region ? ` · ${escapeHTML(uni.region)}` : ''}</p><p style="margin-top:7px;color:#92a0a6;font-size:10px">Level ${levelHTML(uni.level)} · Total ${escapeHTML(uni.total || '—')}</p></div><div class="related-lists">${groupHTML('connections','Connected professors')}${groupHTML('mentorship','Mentioned professors')}</div></div>`;
+    return `<div class="detail-content" style="grid-template-columns:minmax(170px,.65fr) minmax(300px,1.8fr)"><div class="detail-block"><h4>University details</h4><p>${escapeHTML(uni.country || 'Country not listed')}${uni.region ? ` · ${escapeHTML(uni.region)}` : ''}</p><p style="margin-top:7px;color:#92a0a6;font-size:10px">Level ${levelHTML(uni.level)} · Epstein Score ${escapeHTML(uni.total || '—')}</p></div><div class="related-lists">${groupHTML('connections','Connected professors')}${groupHTML('mentorship','Mentioned professors')}</div></div>`;
   }
   function renderUniversityTable(rows) {
     const start = (state.page - 1) * PAGE_SIZE;
@@ -242,11 +249,11 @@
       const id = `university:${norm(uni.name)}`;
       const open = state.openId === id;
       const related = relatedPeople(uni.name);
-      const count = related.connections.length + related.mentorship.length;
+      const count = related.connections.length;
       
       return `<tr class="result-row university-row" data-row-id="${escapeHTML(id)}"><td><a class="university-name" href="${universityHref(uni.name)}">${escapeHTML(uni.name)}</a></td><td>${escapeHTML(uni.country || '—')}</td><td>${escapeHTML(uni.region || '—')}</td><td>${levelHTML(uni.level)}</td><td>${escapeHTML(uni.total || '—')}</td><td>${formatCount(count)}</td><td><button class="detail-button" type="button" data-expand="${escapeHTML(id)}" aria-expanded="${open}">${open ? 'Close −' : 'Details +'}</button></td></tr>${open ? `<tr class="detail-row"><td colspan="7">${universityDetail(uni)}</td></tr>` : ''}`;
     }).join('');
-    return `<table class="data-table"><thead><tr><th>University</th><th>Country</th><th>State</th><th>Level</th><th>Total</th><th>Linked professor records</th><th></th></tr></thead><tbody>${body}</tbody></table>`;
+    return `<table class="data-table"><thead><tr><th>University</th><th>Country</th><th>State</th><th>Level</th><th>Epstein Score</th><th>Connected People</th><th></th></tr></thead><tbody>${body}</tbody></table>`;
   }
   function syncURL() {
     const url = new URL(window.location.href);
