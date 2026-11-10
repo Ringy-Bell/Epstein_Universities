@@ -1,29 +1,30 @@
 University,Country,State,Level,Total
-Harvard,United States,Massachusetts,5,2091
+Harvard,United States,Massachusetts,5,2092
 MIT,United States,Massachusetts,5,2040
-Stanford,United States,California,5,889
+Stanford,United States,California,5,799
 Columbia University,United States,New York,4,840
-Caltech,United States,California,4,667
+Caltech,United States,California,4,668
 Princeton,United States,New Jersey,5,615
 "University of California, Berkeley",United States,California,4,598
 Arizona State University,United States,Arizona,5,547
-University of Chicago,United States,Illinois,4,404
-Yale,United States,Connecticut,5,383
-University of Cambridge,United Kingdom,,4,357
+University of Chicago,United States,Illinois,4,405
+Yale,United States,Connecticut,5,385
+University of Cambridge,United Kingdom,,4,359
 Cornell,United States,New York,4,327
 New College of the Humanities,United Kingdom,,5,300
 University of the Virgin Islands,United States,U.S. Virgin Islands,4,300
 Northwestern University,United States,Illinois,4,257
 University of Southern California,United States,California,5,231
 Oxford,United Kingdom,,5,224
-Boston University,United States,Massachusetts,4,223
+Boston University,United States,Massachusetts,4,224
 Mount Sinai,United States,New York,4,220
 Carnegie Mellon University,United States,Pennsylvania,4,208
 University of New Mexico,United States,New Mexico,4,207
+University of New Mexico,United States,New Mexico,4,207
 University of Pennsylvania,United States,Pennsylvania,5,197
-New York University,United States,New York,4,190
+New York University,United States,New York,4,191
 New York Academy of Art,United States,New York,4,140
-University of Texas at Austin,United States,Texas,4,136
+University of Texas at Austin,United States,Texas,4,137
 Bard,United States,New York,5,130
 University of Michigan,United States,Michigan,4,128
 Rutgers,United States,New Jersey,5,124
@@ -44,12 +45,12 @@ Kyoto University,Japan,,4,110
 Minerva University,United States,California,5,110
 Australian National University,Australia,,5,103
 Montana State University,United States,Montana,4,103
-Georgia Institute of Technology,United States,Georgia,4,103
+Georgia Institute of Technology,United States,Georgia,4,104
 Purdue,United States,Indiana,4,102
 University of Warwick,United Kingdom,,4,102
 Stockholm University,Sweden,,4,101
 University of Birmingham,United Kingdom,,4,101
-University of Sussex,United Kingdom,,4,101
+University of Sussex,United Kingdom,,4,102
 University of Oklahoma,United States,Oklahoma,4,101
 Case Western Reserve University,United States,Ohio,5,100
 Leiden University,Netherlands,,4,100
@@ -72,7 +73,7 @@ Karolinska Institutet,Sweden,,3,30
 University College London,United Kingdom,,3,28
 University of Washington,United States,Washington,3,26
 Brown University,United States,Rhode Island,3,24
-Washington University in St. Louis,United States,Missouri,3,24
+Washington University in St. Louis,United States,Missouri,3,25
 University of Arizona,United States,Arizona,3,24
 Imperial College London,United Kingdom,,3,23
 George Mason University,United States,Virginia,3,22
@@ -84,21 +85,21 @@ Rockefeller University,United States,New York,3,20
 Sofia University,Bulgaria,,3,20
 University of Waterloo,Canada,,3,20
 Johns Hopkins University,United States,Maryland,3,17
-Dartmouth,United States,New Hampshire,3,15
+Dartmouth,United States,New Hampshire,3,16
 Pennsylvania State University,United States,Pennsylvania,3,14
-University of Edinburgh,United Kingdom,,3,14
+University of Edinburgh,United Kingdom,,3,15
 "University of Massachusetts, Amherst",United States,Massachusetts,3,13
 University of Toronto,Canada,,3,13
 George Washington University,United States,District of Columbia,3,12
 King’s College London,United Kingdom,,3,12
-University of Utah,United States,Utah,3,12
+University of Utah,United States,Utah,3,14
 University of Virginia,United States,Virginia,3,12
 University of Vienna,Austria,,3,12
 Aarhus University,Denmark,,3,11
 California Institute for Human Science,United States,California,3,11
 Clemson University,United States,South Carolina,3,11
 Indian Institute of Technology,India,,3,11
-Indiana University Bloomington,United States,Indiana,3,11
+Indiana University Bloomington,United States,Indiana,3,12
 Tel Aviv University,Israel,,3,11
 University of Innsbruck,Austria,,3,11
 University of Minnesota,United States,Minnesota,3,11
@@ -164,8 +165,7 @@ University of Naples,Italy,,3,10
 "University of Nevada, Las Vegas",United States,Nevada,3,10
 University of Newcastle,Australia,,3,10
 "University of North Carolina, Wilmington",United States,North Carolina,3,10
-University of Rome,Italy,,3,10
-University of Rome Sapienza,Italy,,3,10
+Sapienza University of Rome,Italy,,3,21
 University of Tennessee,United States,Tennessee,3,10
 "University of Texas Health Science Center, San Antonio",United States,Texas,3,10
 University of Trento,Italy,,3,10
@@ -179,7 +179,7 @@ Zhejiang University,China,,3,10
 TIFR,India,,2,7
 "University of Colorado, Boulder",United States,Colorado,2,5
 Okinawa Institute of Science and Technology,Japan,,2,4
-"University of California, Davis",United States,California,2,4
+"University of California, Davis",United States,California,2,5
 University of Georgia,United States,Georgia,2,4
 University of Vermont,United States,Vermont,2,4
 ETH Zurich,Switzerland,,2,3
@@ -201,7 +201,7 @@ University of London,United Kingdom,,2,2
 University of Missouri,United States,Missouri,2,2
 University of Montpellier,France,,2,2
 University of North Carolina at Chapel Hill,United States,North Carolina,2,2
-University of Pittsburgh,United States,Pennsylvania,2,2
+University of Pittsburgh,United States,Pennsylvania,2,3
 University of Potsdam,Germany,,2,2
 Washington State University,United States,Washington,2,2
 University of Bonn,Germany,,2,2
@@ -274,7 +274,7 @@ University of Amsterdam,Netherlands,,2,1
 University of Arkansas,United States,Arkansas,2,1
 University of Belgrade,Serbia,,2,1
 University of Bologna,Italy,,2,1
-University of Bristol,United Kingdom,,2,1
+University of Bristol,United Kingdom,,2,2
 University of Calgary,Canada,,2,1
 University of Colorado Denver,United States,Colorado,2,1
 University of Glasgow,United Kingdom,,2,1
@@ -307,3 +307,10 @@ Xiamen University,China,,2,1
 Baylor College of Medicine,United States,Texas,2,1
 London School of Economics and Political Science,United Kingdom,,2,1
 Georgetown University,United States,District of Columbia,2,1
+Howard University,United States,District of Columbia,2,1
+University of Copenhagen,Denmark,,2,1
+University of Southern Denmark,Denmark,,2,1
+Aix-Marseille University,France,,2,1
+The University of Western Ontario,Canada,,2,1
+Tohoku University,Japan,,2,1
+University of Bristol,United Kingdom,,2,2
