@@ -44,9 +44,6 @@ To do (Critical):
 -----------------
 1. Names from SFI and Edge
 2. Throw this on as many desks as possible
-3. Visual eyecandy for streamers and media people (A map was suggested)
-4. Website cleanup
-5. Rule of thumb for score interpretation
 
 To do (Important but not Critical):
 ----------------------------
