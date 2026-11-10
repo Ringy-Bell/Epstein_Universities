@@ -44,6 +44,8 @@ To do (Critical):
 -----------------
 1. Names from SFI and Edge
 2. Throw this on as many desks as possible
+3. Fix centering of logo
+4. Fix problems that come up with site resizing
 
 To do (Important but not Critical):
 ----------------------------
