@@ -3,14 +3,15 @@
   const FILES = {
     connections: 'data/conn_profs_ai.csv',
     mentorship: 'data/ment_profs_ai.csv',
-    universities: 'data/universities.csv'
+    universities: 'data/universities.csv',
+    peopleMetadata: 'data/people_metadata.csv'
   };
   const PAGE_SIZE = 25;
   const $ = (selector) => document.querySelector(selector);
   const state = {
     view: 'universities', query: '', level: '', country: '', region: '', sort: '', page: 1,
     openId: '', people: { connections: [], mentorship: [] }, universities: [],
-    universityIndex: new Map(), linkedAffiliations: 0
+    universityIndex: new Map(), linkedAffiliations: 0, peopleMetadata: new Map()
   };
 
   function parseCSV(text) {
@@ -65,6 +66,50 @@
       affiliations: uniIndex < 0 ? [] : row.slice(uniIndex).map(v => String(v ?? '').trim()).filter(Boolean),
       dataset
     })).filter(p => p.id || p.firstName || p.lastName);
+  }
+  function makePeopleMetadata(rows) {
+    const headers = rows[0] || [];
+    const datasetIndex = findColumn(headers, ['Dataset', 'People Dataset', 'List']);
+    const keyIndex = findColumn(headers, ['Key', 'ID', 'Identifier']);
+    const descriptionIndex = findColumn(headers, ['Description', 'About', 'Biography', 'Bio']);
+    const evidenceIndex = findColumn(headers, ['Evidence URL', 'Evidence Link', 'Evidence']);
+    const profileIndex = findColumn(headers, ['Profile URL', 'Profile Link', 'Biography URL', 'Bio URL']);
+    if (keyIndex < 0) throw new Error('The people metadata CSV is missing its Key column.');
+    const metadata = new Map();
+    rows.slice(1).forEach(row => {
+      const key = readField(row, keyIndex);
+      if (!key) return;
+      const rawDataset = norm(readField(row, datasetIndex));
+      const dataset = ['connection', 'connections', 'connected'].includes(rawDataset) ? 'connections'
+        : ['mentorship', 'mentor', 'mentioned'].includes(rawDataset) ? 'mentorship' : rawDataset;
+      metadata.set(`${dataset}:${key}`, {
+        description: readField(row, descriptionIndex),
+        evidenceUrl: readField(row, evidenceIndex),
+        profileUrl: readField(row, profileIndex)
+      });
+    });
+    return metadata;
+  }
+  function safeExternalURL(value) {
+    const raw = String(value || '').trim();
+    if (!raw) return '';
+    try {
+      const url = new URL(raw);
+      return ['http:', 'https:'].includes(url.protocol) ? url.href : '';
+    } catch (_) { return ''; }
+  }
+  function externalLink(label, value) {
+    const url = safeExternalURL(value);
+    return url ? `<a class="metadata-link" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(label)} ↗</a>` : '';
+  }
+  function externalEvidenceLinks(value) {
+    return String(value || '').split(';').map(raw => {
+      const url = safeExternalURL(raw);
+      if (!url) return '';
+      const filename = new URL(url).pathname.split('/').pop().replace(/\.pdf$/i, '');
+      const label = /^EFTA\d+$/i.test(filename) ? filename : 'Evidence source';
+      return externalLink(label, url);
+    }).filter(Boolean).join('');
   }
   function makeUniversities(rows) {
     const headers = rows[0] || [];
@@ -220,7 +265,11 @@
     const affHTML = p.affiliations.length
       ? p.affiliations.map(affiliationHTML).join('')
       : '<span class="subtle">No university affiliation listed.</span>';
-    return `<div class="detail-content"><div class="detail-block"><h4>Notes / Evidence</h4><p>${noteHTML}</p><p style="margin-top:11px;color:#92a0a6;font-size:10px">Level ${levelHTML(p.level)}</p></div><div class="detail-block"><h4>All listed affiliations · ${p.affiliations.length}</h4><div class="detail-affiliations">${affHTML}</div></div></div>`;
+    const metadata = state.peopleMetadata.get(`${p.dataset}:${p.id}`) || {};
+    const links = [externalEvidenceLinks(metadata.evidenceUrl), externalLink('Biography / profile', metadata.profileUrl)].filter(Boolean).join('');
+    const aboutHTML = metadata.description ? `<div class="detail-block metadata-about"><h4>About</h4><p>${escapeHTML(metadata.description)}</p></div>` : '';
+    const linksHTML = links ? `<div class="detail-block metadata-resources"><h4>External resources</h4><div class="metadata-links">${links}</div></div>` : '';
+    return `<div class="detail-content"><div class="detail-block"><h4>Notes / Evidence</h4><p>${noteHTML}</p><p style="margin-top:11px;color:#92a0a6;font-size:10px">Level ${levelHTML(p.level)}</p>${aboutHTML}${linksHTML}</div><div class="detail-block"><h4>All listed affiliations · ${p.affiliations.length}</h4><div class="detail-affiliations">${affHTML}</div></div></div>`;
   }
   function renderPeopleTable(rows) {
     const start = (state.page - 1) * PAGE_SIZE;
@@ -330,12 +379,13 @@
   }
   async function start() {
     try {
-      const [connections, mentorship, universities] = await Promise.all([
-        loadCSV(FILES.connections), loadCSV(FILES.mentorship), loadCSV(FILES.universities)
+      const [connections, mentorship, universities, peopleMetadata] = await Promise.all([
+        loadCSV(FILES.connections), loadCSV(FILES.mentorship), loadCSV(FILES.universities), loadCSV(FILES.peopleMetadata)
       ]);
       state.people.connections = makePeople(connections, 'connections');
       state.people.mentorship = makePeople(mentorship, 'mentorship');
       state.universities = makeUniversities(universities);
+      state.peopleMetadata = makePeopleMetadata(peopleMetadata);
       buildIndexes();
       initialiseFromURL();
       bindEvents();
@@ -358,7 +408,7 @@
       }
     } catch (error) {
       console.error(error);
-      $('#tableMount').innerHTML = `<div class="table-empty"><div><strong>Could not load the dataset</strong><p>${escapeHTML(error.message)} Check that the three CSV files are in the <code>data</code> folder and run this site through a local web server or GitHub Pages.</p></div></div>`;
+      $('#tableMount').innerHTML = `<div class="table-empty"><div><strong>Could not load the dataset</strong><p>${escapeHTML(error.message)} Check that all four CSV files are in the <code>data</code> folder and run this site through a local web server or GitHub Pages.</p></div></div>`;
       $('#resultsSummary').textContent = 'Dataset unavailable';
     }
   }
