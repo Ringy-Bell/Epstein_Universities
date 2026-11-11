@@ -44,12 +44,10 @@ To do (Critical):
 -----------------
 1. Names from SFI and Edge
 2. Throw this on as many desks as possible
-3. Fix centering of logo
-4. Fix problems that come up with site resizing
 
 To do (Important but not Critical):
 ----------------------------
-1. External links on each university and professor. This is the most time-consuming but most requested feature so far.
+1. Finish creating links on each university and professor. This functionality exists, but not all links are populated.
 2. Department-level distinction (even more time-consuming but relevant for prospective grad students).
 
 Probably doomed
