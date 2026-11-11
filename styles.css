@@ -112,3 +112,78 @@ body{background:#061725;color:#f2f0e8}
 
 /* Deep-linked records should scroll clear of the sticky navigation. */
 .data-table tbody tr.result-row{scroll-margin-top:90px}
+
+/* Responsive header: keep the logo and copy proportional as the viewport changes. */
+.site-header{
+  grid-template-columns:clamp(112px,16vw,180px) minmax(0,1fr);
+  column-gap:clamp(18px,3vw,38px);
+  align-items:center;
+}
+.brand{
+  width:100%;
+  min-width:0;
+  justify-content:center;
+}
+.brand-mark,
+.brand-mark svg{
+  width:100%;
+  height:auto;
+  max-width:180px;
+  aspect-ratio:1;
+}
+.header-copy{min-width:0}
+.header-copy .eyebrow{
+  font-size:clamp(20px,3.1vw,42px);
+  line-height:1.12;
+  letter-spacing:clamp(.5px,.14vw,1.7px);
+  text-wrap:balance;
+}
+.header-copy h1{
+  font-size:clamp(25px,3vw,39px);
+  line-height:1.16;
+  letter-spacing:clamp(-1.2px,-.08vw,-.5px);
+  text-wrap:balance;
+  overflow-wrap:normal;
+}
+
+@media(max-width:1050px){
+  .site-header{
+    grid-template-columns:clamp(112px,17vw,160px) minmax(0,1fr);
+    column-gap:clamp(14px,2.2vw,24px);
+  }
+  .brand-mark,
+  .brand-mark svg{max-width:160px}
+}
+
+@media(max-width:680px){
+  .site-header{
+    grid-template-columns:42px minmax(0,1fr);
+    align-items:start;
+    column-gap:12px;
+    row-gap:0;
+  }
+  .brand{justify-content:flex-start;padding-top:2px}
+  .brand-mark,
+  .brand-mark svg{width:42px;height:42px;max-width:42px}
+  .header-copy .eyebrow{
+    margin-bottom:7px;
+    font-size:clamp(15px,4.2vw,22px);
+    line-height:1.18;
+    letter-spacing:.55px;
+  }
+  .header-copy h1{
+    font-size:clamp(20px,5vw,27px);
+    line-height:1.18;
+    letter-spacing:-.5px;
+    text-wrap:balance;
+  }
+  .lede{font-size:12px}
+}
+
+@media(max-width:380px){
+  .site-header{grid-template-columns:34px minmax(0,1fr);column-gap:9px}
+  .brand-mark,
+  .brand-mark svg{width:34px;height:34px;max-width:34px}
+  .header-copy .eyebrow{font-size:15px;letter-spacing:.35px}
+  .header-copy h1{font-size:20px;letter-spacing:-.35px}
+}
