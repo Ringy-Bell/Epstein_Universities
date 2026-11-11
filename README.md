@@ -44,6 +44,7 @@ To do (Critical):
 -----------------
 1. Names from SFI and Edge
 2. Throw this on as many desks as possible
+3. Create the most unholy clickbait possible to promote this site
 
 To do (Important but not Critical):
 ----------------------------
