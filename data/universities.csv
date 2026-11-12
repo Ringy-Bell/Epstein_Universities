@@ -30,7 +30,7 @@ University of Michigan,United States,Michigan,4,128
 Rutgers,United States,New Jersey,5,124
 Tufts,United States,Massachusetts,4,123
 University of Illinois Urbana-Champaign,United States,Illinois,4,122
-Northeastern University,United States,Massachusetts,4,121
+Northeastern University,United States,Massachusetts,4,122
 "University of California, Irvine",United States,California,4,121
 "University of California, Los Angeles",United States,California,5,119
 "University of California, Santa Barbara",United States,California,4,118
@@ -165,7 +165,6 @@ University of Maryland School of Public Health,United States,Maryland,3,10
 "University of Maryland, College Park",United States,Maryland,3,10
 University of Naples,Italy,,3,10
 "University of Nevada, Las Vegas",United States,Nevada,3,10
-University of Newcastle,Australia,,3,10
 "University of North Carolina, Wilmington",United States,North Carolina,3,10
 University of Tennessee,United States,Tennessee,3,10
 "University of Texas Health Science Center, San Antonio",United States,Texas,3,10
@@ -313,3 +312,5 @@ University of Southern Denmark,Denmark,,2,1
 Aix-Marseille University,France,,2,1
 The University of Western Ontario,Canada,,2,1
 Tohoku University,Japan,,2,1
+Wageningen University,Netherlands,,2,1
+Technical University of Denmark,Denmark,,2,1
