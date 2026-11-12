@@ -39,17 +39,19 @@ Major contributors
 2. Clarion
 3. Chime
 
+CURRENT TASKS:
+--------------
+1. Names from SFI and Edge (About 30 from SFI and 200 left from Edge, proceeding at a rate of roughly 20/day) ETA: late November
+2. Links on each professor (ChatGPT can handle about 20-30 of these a day, and I'm not doing this manually) ETA: Christmas
 
 To do (Critical):
 -----------------
-1. Names from SFI and Edge
-2. Throw this on as many desks as possible
-3. Create the most unholy clickbait possible to promote this site
+1. Throw this on as many desks as possible
+2. Create the most unholy clickbait possible to promote this site
 
 To do (Important but not Critical):
 ----------------------------
-1. Finish creating links on each university and professor. This functionality exists, but not all links are populated.
-2. Department-level distinction (even more time-consuming but relevant for prospective grad students).
+1. Department-level distinction (relevant for prospective grad students)
 
 Probably doomed
 ---------------
