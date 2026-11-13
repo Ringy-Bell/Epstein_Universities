@@ -41,7 +41,7 @@ Major contributors
 
 CURRENT TASKS:
 --------------
-1. Names from SFI and Edge (About 30 from SFI and 200 left from Edge, proceeding at a rate of roughly 20/day) ETA: late November
+1. Names from Edge (About 200 left from Edge, proceeding at a rate of roughly 20/day) ETA: late November
 2. Links on each professor (ChatGPT can handle about 20-30 of these a day, and I'm not doing this manually) ETA: Christmas
 
 To do (Critical):
