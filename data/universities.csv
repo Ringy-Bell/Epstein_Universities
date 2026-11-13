@@ -1,21 +1,21 @@
 University,Country,State,Level,Total
-Harvard,United States,Massachusetts,5,2097
-MIT,United States,Massachusetts,5,2044
-Columbia University,United States,New York,4,841
+Harvard,United States,Massachusetts,5,2099
+MIT,United States,Massachusetts,5,2046
+Columbia University,United States,New York,4,842
 Stanford,United States,California,5,800
 Caltech,United States,California,4,668
-Princeton,United States,New Jersey,5,617
+Princeton,United States,New Jersey,5,619
 "University of California, Berkeley",United States,California,4,598
 Arizona State University,United States,Arizona,5,548
-University of Chicago,United States,Illinois,4,406
-Yale,United States,Connecticut,5,387
+University of Chicago,United States,Illinois,4,407
+Yale,United States,Connecticut,5,388
 University of Cambridge,United Kingdom,,4,359
 Cornell,United States,New York,4,327
 New College of the Humanities,United Kingdom,,5,300
 University of the Virgin Islands,United States,U.S. Virgin Islands,4,300
-Northwestern University,United States,Illinois,4,257
+Northwestern University,United States,Illinois,4,258
 University of Southern California,United States,California,5,231
-Oxford,United Kingdom,,5,225
+Oxford,United Kingdom,,5,226
 Boston University,United States,Massachusetts,4,224
 Mount Sinai,United States,New York,4,220
 Carnegie Mellon University,United States,Pennsylvania,4,209
@@ -23,7 +23,7 @@ University of New Mexico,United States,New Mexico,4,208
 University of Pennsylvania,United States,Pennsylvania,5,198
 New York University,United States,New York,4,192
 New York Academy of Art,United States,New York,4,140
-University of Texas at Austin,United States,Texas,4,137
+University of Texas at Austin,United States,Texas,4,138
 Bard,United States,New York,5,131
 University of Michigan,United States,Michigan,4,129
 Rutgers,United States,New Jersey,5,124
@@ -31,7 +31,7 @@ Tufts,United States,Massachusetts,4,123
 University of Illinois Urbana-Champaign,United States,Illinois,4,122
 Northeastern University,United States,Massachusetts,4,122
 "University of California, Irvine",United States,California,4,121
-"University of California, Los Angeles",United States,California,5,119
+"University of California, Los Angeles",United States,California,5,120
 "University of California, Santa Barbara",United States,California,4,118
 University of Maryland,United States,Maryland,4,113
 Albert Einstein College of Medicine,United States,New York,4,111
@@ -86,7 +86,7 @@ Rockefeller University,United States,New York,3,20
 Sofia University,Bulgaria,,3,20
 University of Waterloo,Canada,,3,20
 Johns Hopkins University,United States,Maryland,3,18
-Dartmouth,United States,New Hampshire,3,16
+Dartmouth,United States,New Hampshire,3,17
 University of Edinburgh,United Kingdom,,3,15
 University of Utah,United States,Utah,3,15
 Pennsylvania State University,United States,Pennsylvania,3,14
@@ -313,5 +313,6 @@ The University of Western Ontario,Canada,,2,1
 Tohoku University,Japan,,2,1
 Wageningen University,Netherlands,,2,1
 Technical University of Denmark,Denmark,,2,1
-"University of California, Merced",United States,California,2,1
+"University of California, Merced",United States,California,2,2
 Medical University of Vienna,Austria,,2,1
+Seoul National University,South Korea,,2,1
