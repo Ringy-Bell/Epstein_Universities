@@ -47,7 +47,8 @@ CURRENT TASKS:
 To do (Critical):
 -----------------
 1. Throw this on as many desks as possible
-2. Create the most unholy clickbait possible to promote this site
+2. Update maps (South Korea)
+3. Create the most unholy clickbait possible to promote this site
 
 To do (Important but not Critical):
 ----------------------------
