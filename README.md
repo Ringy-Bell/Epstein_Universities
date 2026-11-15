@@ -42,7 +42,7 @@ Major contributors
 CURRENT TASKS:
 --------------
 1. Names from Edge (About 200 left from Edge, proceeding at a rate of roughly 20/day) ETA: late November
-2. Links on each professor (ChatGPT can handle about 20-30 of these a day, and I'm not doing this manually) ETA: Christmas
+2. Links on each professor (The local AI cranks out about 10 of these an hour. ) ETA for bio links: late November
 
 To do (Critical):
 -----------------
