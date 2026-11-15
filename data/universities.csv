@@ -1,21 +1,21 @@
 University,Country,State,Level,Total
-Harvard,United States,Massachusetts,5,2101
-MIT,United States,Massachusetts,5,2047
-Columbia University,United States,New York,4,842
+Harvard,United States,Massachusetts,5,2111
+MIT,United States,Massachusetts,5,2056
+Columbia University,United States,New York,4,843
 Stanford,United States,California,5,800
 Caltech,United States,California,4,668
 Princeton,United States,New Jersey,5,619
 "University of California, Berkeley",United States,California,4,599
 Arizona State University,United States,Arizona,5,548
 University of Chicago,United States,Illinois,4,408
-Yale,United States,Connecticut,5,389
+Yale,United States,Connecticut,5,390
 University of Cambridge,United Kingdom,,4,359
 Cornell,United States,New York,4,327
 New College of the Humanities,United Kingdom,,5,300
 University of the Virgin Islands,United States,U.S. Virgin Islands,4,300
 Northwestern University,United States,Illinois,4,258
 University of Southern California,United States,California,5,231
-Oxford,United Kingdom,,5,227
+Oxford,United Kingdom,,5,228
 Boston University,United States,Massachusetts,4,224
 Mount Sinai,United States,New York,4,220
 Carnegie Mellon University,United States,Pennsylvania,4,209
@@ -27,11 +27,11 @@ University of Texas at Austin,United States,Texas,4,138
 Bard,United States,New York,5,131
 University of Michigan,United States,Michigan,4,129
 Rutgers,United States,New Jersey,5,124
-Tufts,United States,Massachusetts,4,123
-Northeastern University,United States,Massachusetts,4,122
+Tufts,United States,Massachusetts,4,133
+Northeastern University,United States,Massachusetts,4,133
 University of Illinois Urbana-Champaign,United States,Illinois,4,122
-"University of California, Irvine",United States,California,4,122
-"University of California, Los Angeles",United States,California,5,120
+"University of California, Irvine",United States,California,4,123
+"University of California, Los Angeles",United States,California,5,121
 "University of California, Santa Barbara",United States,California,4,118
 University of Maryland,United States,Maryland,4,113
 Albert Einstein College of Medicine,United States,New York,4,111
@@ -65,7 +65,7 @@ University of Paris,France,,4,100
 University of the South,United States,Tennessee,4,100
 Tsinghua,China,,3,60
 Duke,United States,North Carolina,3,57
-"University of California, San Diego",United States,California,3,56
+"University of California, San Diego",United States,California,3,57
 "University of California, San Francisco",United States,California,3,40
 University of Miami,United States,Florida,3,40
 Indiana University,United States,Indiana,3,33
@@ -79,7 +79,7 @@ Imperial College London,United Kingdom,,3,24
 George Mason University,United States,Virginia,3,23
 Ohio State University,United States,Ohio,3,21
 Sapienza University of Rome,Italy,,3,21
-Stony Brook University,United States,New York,3,21
+Stony Brook University,United States,New York,3,22
 Moscow State University,Russia,,3,20
 New York Academy of Sciences,United States,New York,3,20
 Rockefeller University,United States,New York,3,20
