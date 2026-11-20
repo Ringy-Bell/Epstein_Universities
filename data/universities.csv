@@ -1,7 +1,7 @@
 University,Country,State,Level,Total
 Harvard,United States,Massachusetts,5,2120
 MIT,United States,Massachusetts,5,2053
-Columbia University,United States,New York,4,858
+Columbia University,United States,New York,4,758
 Stanford,United States,California,5,807
 Caltech,United States,California,4,671
 Princeton,United States,New Jersey,5,627
@@ -17,7 +17,7 @@ Northwestern University,United States,Illinois,4,259
 Oxford,United Kingdom,,5,232
 University of Southern California,United States,California,5,231
 Boston University,United States,Massachusetts,4,225
-Mount Sinai,United States,New York,4,220
+Mount Sinai,United States,New York,5,220
 Carnegie Mellon University,United States,Pennsylvania,4,210
 University of New Mexico,United States,New Mexico,4,209
 New York University,United States,New York,4,199
@@ -39,7 +39,7 @@ Sorbonne Universite,France,,4,111
 University of Utrecht,Netherlands,,4,111
 University of Texas,United States,Texas,4,111
 Kyoto University,Japan,,4,111
-Amherst College,United States,Massachusetts,4,111
+Amherst College,United States,Massachusetts,3,11
 Hong Kong Polytechnic University,Hong Kong,,5,110
 Minerva University,United States,California,5,110
 Baylor University,United States,Texas,4,110

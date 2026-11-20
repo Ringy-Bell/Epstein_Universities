@@ -39,7 +39,7 @@ connections,88,,https://www.justice.gov/epstein/files/DataSet%2011/EFTA02488062.
 connections,89,,https://www.justice.gov/epstein/files/DataSet%2011/EFTA02655548.pdf,http://www.gold.ac.uk/psychology/staff/bhattacharya
 connections,91,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01782181.pdf,https://normsandbehavior.sas.upenn.edu/cristina-bicchieri
 connections,92,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01739142.pdf,
-connections,95,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00284175.pdf,https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/birnbaum-larry.html
+connections,95,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00284175.pdf;https://epsteinsblackbook.com/names/birnbaum,https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/birnbaum-larry.html
 connections,99,,,https://en.wikipedia.org/wiki/Debra_Black
 connections,101,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01983179.pdf,https://en.wikipedia.org/wiki/Len_Blavatnik
 connections,104,,https://www.edge.org/memberbio/paul_bloom;https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/paul_bloom
@@ -101,7 +101,7 @@ connections,231,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00756534.
 connections,233,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00482986.pdf,https://scholar.harvard.edu/johndelaparra/bio
 connections,237,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01857311.pdf,https://www.college-de-france.fr/en/person/stanislas-dehaene
 connections,240,,,https://en.wikipedia.org/wiki/Daniel_Dennett
-connections,242,,,https://hls.harvard.edu/faculty/alan-m-dershowitz/
+connections,242,,https://epsteinsblackbook.com/names/alan-dershowitz,https://hls.harvard.edu/faculty/alan-m-dershowitz/
 connections,243,,,https://asuenterprisepartners.org/virginia-ginny-desanto/
 connections,244,,https://www.edge.org/memberbio/keith_devlin;https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/keith_devlin
 connections,245,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01853241.pdf,https://profiles.mountsinai.org/larry-di-fabrizio
@@ -201,7 +201,7 @@ connections,469,,,https://www.media.mit.edu/people/joi/overview/
 connections,472,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01994990.pdf,https://www.americanancestors.org/staff/dionne-jackson
 connections,474,,https://www.justice.gov/epstein/files/DataSet%2011/EFTA02468159.pdf,https://www.media.mit.edu/people/jacobson.html
 connections,476,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01775112.pdf,https://www.edge.org/memberbio/jennifer_jacquet
-connections,479,,,https://en.wikipedia.org/wiki/Henry_Jarecki
+connections,479,,https://epsteinsblackbook.com/names/henry-jarecki,https://en.wikipedia.org/wiki/Henry_Jarecki
 connections,483,,,https://en.wikipedia.org/wiki/Mary_Lou_Jepsen
 connections,485,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00319947.pdf,
 connections,508,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00216757.pdf,https://en.wikipedia.org/wiki/Jerome_Kagan
@@ -290,7 +290,7 @@ connections,744,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00867899.
 connections,745,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/sendhil_mullainathan
 connections,746,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://physics.berkeley.edu/people/faculty/richard-muller
 connections,748,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA02152831.pdf,https://dental.touro.edu/research/research-faculty/list/myers-ronnie.php
-connections,749,,,https://en.wikipedia.org/wiki/Nathan_Myhrvold
+connections,749,,https://epsteinsblackbook.com/names/nathan-myhrvold,https://en.wikipedia.org/wiki/Nathan_Myhrvold
 connections,752,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00284175.pdf,https://research.google/people/srininarayanan/
 connections,753,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00704824.pdf,https://nexteinstein.org/person/wilfred-ndifon/
 connections,754,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA02057054.pdf,https://www.media.mit.edu/people/nicholas/overview/
@@ -350,7 +350,7 @@ connections,904,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01852749
 connections,906,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00440611.pdf,https://en.wikipedia.org/wiki/Donald_Rubin
 connections,914,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01962855.pdf,
 connections,915,,,https://en.wikipedia.org/wiki/Jeffrey_Sachs
-connections,916,,,https://www.oliversacks.com/about-oliver-sacks/
+connections,916,,https://epsteinsblackbook.com/names/oliver-sacks,https://www.oliversacks.com/about-oliver-sacks/
 connections,917,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/eldar_shafir
 connections,918,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01811692.pdf,https://en.wikipedia.org/wiki/Bert_Sakmann
 connections,919,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00544560.pdf,https://www.dental.columbia.edu/profile/letty-moss-salentijn-dds
@@ -395,7 +395,7 @@ connections,1038,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA0181866
 connections,1039,,,https://en.wikipedia.org/wiki/Alan_A._Stone
 connections,1043,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA02108463.pdf,https://www.physics.harvard.edu/people/facpages/strominger
 connections,1047,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/frank_j_sulloway
-connections,1048,,,https://larrysummers.com/biography/
+connections,1048,,https://www.thecrimson.com/article/2025/11/21/summers-honeymoon-epstein-island/,https://larrysummers.com/biography/
 connections,1052,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00723522.pdf,https://profiles.stanford.edu/leonard-susskind
 connections,1053,,https://www.justice.gov/epstein/files/DataSet%2011/EFTA02417540.pdf,https://www.csail.mit.edu/person/gerald-sussman
 connections,1059,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01909130.pdf,https://chemistry.uchicago.edu/faculty/jack-w-szostak
@@ -600,11 +600,11 @@ connections,1501,,https://www.justice.gov/epstein/files/DataSet%209/EFTA01176701
 connections,1502,,https://www.justice.gov/epstein/files/DataSet%209/EFTA01176701.pdf,https://profiles.stanford.edu/robert-sutton
 connections,1503,,,
 connections,1505,,https://www.justice.gov/epstein/files/DataSet%2011/EFTA02243172.pdf,https://en.wikipedia.org/wiki/Dean_Radin
-connections,1506,,,https://liberalarts.tulane.edu/history/people/faculty-staff-name/walter-isaacson
+connections,1506,,https://epsteinsblackbook.com/names/walter-isaacson,https://liberalarts.tulane.edu/history/people/faculty-staff-name/walter-isaacson
 connections,1507,,https://www.justice.gov/epstein/files/DataSet%2012/EFTA02846943.pdf,https://en.wikipedia.org/wiki/Donald_Barr
 connections,1508,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00675225.pdf,https://profiles.ucsd.edu/erik.viirre
 connections,1509,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00139868.pdf,https://www.morgan.edu/mathematics/faculty-and-staff/jonathan-farley
-connections,1511,,,https://wexnermedical.osu.edu/find-a-doctor/mark-landon-100000013
+connections,1511,,https://epsteinexposed.com/persons/mark-landon,https://wexnermedical.osu.edu/find-a-doctor/mark-landon-100000013
 connections,1512,,,https://en.wikipedia.org/wiki/Marko_Ahtisaari
 connections,1513,,,https://en.wikipedia.org/wiki/Robert_Thurman
 connections,1514,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00416408.pdf,https://www.dental.columbia.edu/about-us/leadership-and-administration/global-deans-council
