@@ -42,7 +42,7 @@ Major contributors
 CURRENT TASKS:
 --------------
 1. Names from Edge (About 200 left from Edge, proceeding at a rate of roughly 20/day) ETA: late November
-2. Links on each professor (The local AI cranks out about 10 of these an hour. ) ETA for bio links: late November
+2. Links on each professor (The local AI cranks out about 10 of these an hour.) ETA for bio links: late November
 
 To do (Critical):
 -----------------
@@ -53,6 +53,7 @@ To do (Critical):
 To do (Important but not Critical):
 ----------------------------
 1. Department-level distinction (relevant for prospective grad students)
+2. Clean up mentioned professor notes (It's sloppy, but not as important as missing names or links.)
 
 Probably doomed
 ---------------
