@@ -41,8 +41,8 @@ Major contributors
 
 CURRENT TASKS:
 --------------
-1. Names from Edge (About 200 left from Edge, proceeding at a rate of roughly 20/day) ETA: early December
-2. Evidence URLs (About 175 left. The ones to be added for new Edge entries are straightforward, and require little work.) ETA: early December
+1. Names from Edge (About 70 left from Edge, proceeding at a rate of roughly 20/day) ETA: early December.
+2. Evidence URLs (About 160 left, proceeding at a rate of roughly 15/day. The ones to be added for new Edge entries are straightforward, and require little work.) ETA: early-mid December
 
 To do (Critical):
 -----------------
@@ -54,8 +54,9 @@ To do (Important but not Critical):
 ----------------------------
 1. Department-level distinction (relevant for prospective grad students)
 2. Clean up mentioned professor notes (It's sloppy, but not as important as missing names or links.)
+3. Roughly 60 profile URLs (Deceased or obscure people)
 
 Probably doomed
 ---------------
 1. Revise media packet to be journalist-friendly (we tried)
-2. Roughly 60 profile URLs (Deceased or obscure people)
+
