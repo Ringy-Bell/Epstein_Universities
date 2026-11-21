@@ -41,8 +41,8 @@ Major contributors
 
 CURRENT TASKS:
 --------------
-1. Names from Edge (About 200 left from Edge, proceeding at a rate of roughly 20/day) ETA: late November
-2. Links on each professor (The local AI cranks out about 10 of these an hour.) ETA for bio links: late November
+1. Names from Edge (About 200 left from Edge, proceeding at a rate of roughly 20/day) ETA: early December
+2. Evidence URLs (About 175 left. The ones to be added for new Edge entries are straightforward, and require little work.) ETA: early December
 
 To do (Critical):
 -----------------
@@ -58,3 +58,4 @@ To do (Important but not Critical):
 Probably doomed
 ---------------
 1. Revise media packet to be journalist-friendly (we tried)
+2. Roughly 60 profile URLs (Deceased or obscure people)
