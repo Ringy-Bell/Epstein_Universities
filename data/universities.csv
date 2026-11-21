@@ -1,26 +1,26 @@
 University,Country,State,Level,Total
 Harvard,United States,Massachusetts,5,2120
-MIT,United States,Massachusetts,5,2043
+MIT,United States,Massachusetts,5,2044
 Columbia University,United States,New York,4,758
-Stanford,United States,California,5,807
+Stanford,United States,California,5,808
 Caltech,United States,California,4,671
-Princeton,United States,New Jersey,5,627
+Princeton,United States,New Jersey,5,628
 "University of California, Berkeley",United States,California,4,607
-Arizona State University,United States,Arizona,5,548
+Arizona State University,United States,Arizona,5,550
 University of Chicago,United States,Illinois,4,408
 Yale,United States,Connecticut,5,394
 University of Cambridge,United Kingdom,,4,360
-Cornell,United States,New York,4,330
+Cornell,United States,New York,4,331
 New College of the Humanities,United Kingdom,,5,300
 University of the Virgin Islands,United States,U.S. Virgin Islands,4,300
 Northwestern University,United States,Illinois,4,259
-Oxford,United Kingdom,,5,232
+Oxford,United Kingdom,,5,234
 University of Southern California,United States,California,5,231
 Boston University,United States,Massachusetts,4,225
 Mount Sinai,United States,New York,5,220
 Carnegie Mellon University,United States,Pennsylvania,4,210
 University of New Mexico,United States,New Mexico,4,209
-New York University,United States,New York,4,199
+New York University,United States,New York,4,201
 University of Pennsylvania,United States,Pennsylvania,5,198
 New York Academy of Art,United States,New York,4,140
 University of Texas at Austin,United States,Texas,4,138
@@ -28,11 +28,11 @@ Northeastern University,United States,Massachusetts,4,134
 Tufts,United States,Massachusetts,4,134
 Bard,United States,New York,5,131
 University of Michigan,United States,Michigan,4,134
-Rutgers,United States,New Jersey,5,126
+Rutgers,United States,New Jersey,5,127
 "University of California, Irvine",United States,California,4,124
 University of Illinois Urbana-Champaign,United States,Illinois,4,123
 "University of California, Los Angeles",United States,California,5,124
-"University of California, Santa Barbara",United States,California,4,120
+"University of California, Santa Barbara",United States,California,4,121
 University of Maryland,United States,Maryland,4,133
 Albert Einstein College of Medicine,United States,New York,4,112
 Sorbonne Universite,France,,4,111
@@ -70,7 +70,7 @@ Duke,United States,North Carolina,3,59
 University of Miami,United States,Florida,3,40
 Indiana University,United States,Indiana,3,33
 Karolinska Institutet,Sweden,,3,30
-University College London,United Kingdom,,3,31
+University College London,United Kingdom,,3,33
 University of Washington,United States,Washington,3,28
 Washington University in St. Louis,United States,Missouri,3,27
 University of Arizona,United States,Arizona,3,25
@@ -332,3 +332,4 @@ Claremont McKenna College,United States,California,2,1
 "California State University, San Bernardino",United States,California,2,1
 The Hebrew University of Jerusalem,Israel,,2,1
 Comenius University,Slovakia,,2,1
+University of the Sunshine Coast,Australia,,2,1
