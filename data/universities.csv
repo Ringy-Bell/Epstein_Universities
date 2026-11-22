@@ -1,13 +1,13 @@
 University,Country,State,Level,Total
-Harvard,United States,Massachusetts,5,2120
+Harvard,United States,Massachusetts,5,2111
 MIT,United States,Massachusetts,5,2044
-Columbia University,United States,New York,4,759
-Stanford,United States,California,5,808
+Columbia University,United States,New York,4,760
+Stanford,United States,California,5,810
 Caltech,United States,California,4,672
 Princeton,United States,New Jersey,5,628
-"University of California, Berkeley",United States,California,4,608
+"University of California, Berkeley",United States,California,4,609
 Arizona State University,United States,Arizona,5,551
-University of Chicago,United States,Illinois,4,408
+University of Chicago,United States,Illinois,4,409
 Yale,United States,Connecticut,5,395
 University of Cambridge,United Kingdom,,4,360
 Cornell,United States,New York,4,333
@@ -23,7 +23,7 @@ University of New Mexico,United States,New Mexico,4,209
 New York University,United States,New York,4,201
 University of Pennsylvania,United States,Pennsylvania,5,199
 New York Academy of Art,United States,New York,4,140
-University of Texas at Austin,United States,Texas,4,138
+University of Texas at Austin,United States,Texas,4,140
 Northeastern University,United States,Massachusetts,4,134
 Tufts,United States,Massachusetts,4,134
 Bard,United States,New York,5,131
@@ -31,10 +31,10 @@ University of Michigan,United States,Michigan,4,135
 Rutgers,United States,New Jersey,5,127
 "University of California, Irvine",United States,California,4,124
 University of Illinois Urbana-Champaign,United States,Illinois,4,123
-"University of California, Los Angeles",United States,California,5,124
+"University of California, Los Angeles",United States,California,5,125
 "University of California, Santa Barbara",United States,California,4,122
 University of Maryland,United States,Maryland,4,133
-Albert Einstein College of Medicine,United States,New York,4,112
+Albert Einstein College of Medicine,United States,New York,4,113
 Sorbonne Universite,France,,4,111
 University of Utrecht,Netherlands,,4,111
 University of Texas,United States,Texas,4,121
@@ -64,18 +64,18 @@ Tulane University,United States,Louisiana,4,101
 University of Mississippi,United States,Mississippi,4,100
 University of the South,United States,Tennessee,4,100
 Tsinghua,China,,3,60
-Duke,United States,North Carolina,3,59
+Duke,United States,North Carolina,3,60
 "University of California, San Diego",United States,California,3,59
 "University of California, San Francisco",United States,California,3,41
 University of Miami,United States,Florida,3,40
 Indiana University,United States,Indiana,3,33
 Karolinska Institutet,Sweden,,3,30
 University College London,United Kingdom,,3,33
-University of Washington,United States,Washington,3,28
+University of Washington,United States,Washington,3,29
 Washington University in St. Louis,United States,Missouri,3,27
 University of Arizona,United States,Arizona,3,25
 Brown University,United States,Rhode Island,3,25
-Imperial College London,United Kingdom,,3,24
+Imperial College London,United Kingdom,,3,25
 George Mason University,United States,Virginia,3,23
 Stony Brook University,United States,New York,3,23
 Sapienza University of Rome,Italy,,3,21
@@ -125,7 +125,7 @@ Pierre and Marie Curie University,France,,3,10
 Universite Paris Cite,France,,3,10
 Chinese University of Hong Kong,Hong Kong,,3,10
 Hong Kong Baptist University,Hong Kong,,3,10
-University of Hong Kong,Hong Kong,,3,10
+University of Hong Kong,Hong Kong,,3,11
 Ben Gurion University of the Negev,Israel,,3,10
 Hebrew University of Jerusalem,Israel,,3,10
 University of Haifa,Israel,,3,10
@@ -283,7 +283,7 @@ University of Lancaster,United Kingdom,,2,1
 University of Plymouth,United Kingdom,,2,1
 University of Reading,United Kingdom,,2,1
 Adams State University,United States,Colorado,2,1
-American University,United States,District of Columbia,2,1
+American University,United States,District of Columbia,2,2
 Baylor College of Medicine,United States,Texas,2,1
 Berklee College of Music,United States,Massachusetts,2,1
 Booth School of Business,United States,Illinois,2,1
@@ -333,3 +333,6 @@ Claremont McKenna College,United States,California,2,1
 The Hebrew University of Jerusalem,Israel,,2,1
 Comenius University,Slovakia,,2,1
 University of the Sunshine Coast,Australia,,2,1
+Denison University,United States,Ohio,2,1
+Wake Forest University,United States,North Carolina,2,1
+Heinrich Heine University,Germany,,2,1
