@@ -60,10 +60,10 @@ connections,130,,https://www.edge.org/memberbio/david_brooks;https://epsteinwiki
 connections,135,,https://www.justice.gov/epstein/files/DataSet%2011/EFTA02239636.pdf,https://en.wikipedia.org/wiki/Janet_Browne
 connections,136,,https://www.statepress.com/article/2019/08/spcommunity-asus-origins-project-received-2-million-from-associates-of-jeffrey-epstein;https://www.justice.gov/epstein/files/DataSet%209/EFTA00287347.pdf,http://www.cs.cmu.edu/~bryant/bio.txt
 connections,137,,,https://profiles.stanford.edu/erik-brynjolfsson
-connections,138,,,https://environment.uw.edu/faculty/roger-buick/
+connections,138,,https://www.statepress.com/article/2019/08/spcommunity-asus-origins-project-received-2-million-from-associates-of-jeffrey-epstein;https://www.justice.gov/epstein/files/DataSet%209/EFTA00807076.pdf,https://environment.uw.edu/faculty/roger-buick/
 connections,140,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA02030239.pdf;https://www.justice.gov/epstein/files/DataSet%2010/EFTA01850410.pdf,https://www.bard.edu/faculty/jacob-burda
 connections,144,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01787564.pdf,https://profiles.mountsinai.org/paula-j-busse
-connections,145,,,https://profiles.stanford.edu/blas-cabrera
+connections,145,,https://www.statepress.com/article/2019/08/spcommunity-asus-origins-project-received-2-million-from-associates-of-jeffrey-epstein;https://www.justice.gov/epstein/files/DataSet%209/EFTA00807076.pdf,https://profiles.stanford.edu/blas-cabrera
 connections,146,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00765567.pdf,https://en.wikipedia.org/wiki/John_T._Cacioppo
 connections,149,,https://www.edge.org/memberbio/william_h_calvin;https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/william_h_calvin
 connections,151,,https://edge.org/memberbio/philip_campbell;https://epsteinwiki.com/knowledge-base/edge-foundation/,https://edge.org/memberbio/philip_campbell
@@ -78,7 +78,7 @@ connections,174,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01888778
 connections,179,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00455820.pdf,
 connections,183,,,https://www.media.mit.edu/people/rchin/overview/
 connections,184,,https://www.santafe.edu/people/profile/john-d-chisholm;https://apnews.com/general-news-0bf4a53197bc4877b70f6b216f09a898,https://www.santafe.edu/people/profile/john-d-chisholm
-connections,185,,,https://linguistics.mit.edu/user/chomsky/
+connections,185,,https://www.bbc.com/news/articles/ce9ykjlyv50o,https://linguistics.mit.edu/user/chomsky/
 connections,186,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA02140479.pdf,https://som.yale.edu/faculty-research/faculty-directory/nicholas-christakis
 connections,187,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA02097699.pdf,https://wyss.harvard.edu/team/core-faculty/george-church
 connections,192,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00870681.pdf,https://www.media.mit.edu/people/pfcohen/overview/
@@ -99,7 +99,7 @@ connections,227,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00435351.
 connections,231,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00756534.pdf,https://en.wikipedia.org/wiki/Richard_Dawkins
 connections,233,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00482986.pdf,https://scholar.harvard.edu/johndelaparra/bio
 connections,237,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01857311.pdf,https://www.college-de-france.fr/en/person/stanislas-dehaene
-connections,240,,,https://en.wikipedia.org/wiki/Daniel_Dennett
+connections,240,,https://finance.yahoo.com/news/jeffery-epstein-billionaires-dinner-john-brockman-photos-sarah-kellen-173443481.html,https://en.wikipedia.org/wiki/Daniel_Dennett
 connections,242,,https://epsteinsblackbook.com/names/alan-dershowitz,https://hls.harvard.edu/faculty/alan-m-dershowitz/
 connections,243,,,https://asuenterprisepartners.org/virginia-ginny-desanto/
 connections,244,,https://www.edge.org/memberbio/keith_devlin;https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/keith_devlin
@@ -113,7 +113,7 @@ connections,265,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01749420
 connections,267,,https://www.santafe.edu/people/profile/jennifer-a-dunne/;https://apnews.com/general-news-0bf4a53197bc4877b70f6b216f09a898;https://epsteinwiki.com/knowledge-base/nautilus-magazine-john-steele-michael-segal-and-the-jeffrey-epstein-funding-record/;https://www.justice.gov/epstein/files/DataSet%209/EFTA00797032.pdf,https://www.santafe.edu/people/profile/jennifer-a-dunne/
 connections,271,,https://www.justice.gov/epstein/files/DataSet%2011/EFTA02418043.pdf,https://en.wikipedia.org/wiki/Gerald_Edelman
 connections,283,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/drew_endy
-connections,284,,,https://en.wikipedia.org/wiki/Jeffrey_Epstein
+connections,284,,https://en.wikipedia.org/wiki/Jeffrey_Epstein,https://en.wikipedia.org/wiki/Jeffrey_Epstein
 connections,285,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00756534.pdf,https://www.santafe.edu/people/profile/douglas-h-erwin
 connections,286,,https://www.justice.gov/epstein/files/DataSet%209/EFTA00327658.pdf,https://www.media.mit.edu/people/esvelt/overview/
 connections,288,,,https://law.duke.edu/fac/farahany
@@ -776,7 +776,7 @@ connections,1686,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https:
 connections,1687,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/peter_coveney
 connections,1688,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://economics.gmu.edu/people/tcowen
 connections,1689,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/brian_cox
-connections,1690,,,https://www.edge.org/memberbio/molly_crockett
+connections,1690,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/molly_crockett
 connections,1691,,https://apnews.com/general-news-0bf4a53197bc4877b70f6b216f09a898,https://www.santafe.edu/people/profile/serguei-saavedra
 connections,1692,,https://apnews.com/general-news-0bf4a53197bc4877b70f6b216f09a898,https://www.santafe.edu/people/profile/jeremy-jerry-a-sabloff
 connections,1693,,https://apnews.com/general-news-0bf4a53197bc4877b70f6b216f09a898,https://www.santafe.edu/people/profile/van-p-savage
@@ -823,8 +823,8 @@ connections,1733,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https:
 connections,1734,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/andrew_delton
 connections,1735,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/sarah_demers
 connections,1736,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/emanuel_derman
-connections,1737,,,https://www.edge.org/memberbio/david_desteno
-connections,1738,,,https://psychology.ucsd.edu/people/profiles/ddeutsch.html
+connections,1737,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/david_desteno
+connections,1738,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://psychology.ucsd.edu/people/profiles/ddeutsch.html
 connections,1739,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/david_deutsch
 connections,1740,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/jared_diamond
 connections,1741,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/thomas_g_dietterich
@@ -871,7 +871,7 @@ connections,1781,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https:
 connections,1782,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/anthony_giddens
 connections,1783,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/steve_giddings
 connections,1784,,https://epsteinwiki.com/knowledge-base/edge-foundation/;https://www.edge.org/memberbio/peter_woit,https://en.wikipedia.org/wiki/Peter_Woit
-connections,1785,,,https://www.edge.org/memberbio/alexander_wissner_gross
+connections,1785,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/alexander_wissner_gross
 connections,1786,,https://epsteinwiki.com/knowledge-base/edge-foundation/;https://www.edge.org/memberbio/ellen_winner,https://www.bc.edu/bc-web/schools/morrissey/departments/psychology-neuroscience/people/affiliated-and-emeritus/ellen-winner.html
 connections,1787,,https://www.edge.org/memberbio/david_sloan_wilson,https://www.binghamton.edu/apps/directory/person/profile/dwilson
 connections,1788,,https://epsteinwiki.com/knowledge-base/edge-foundation/;https://www.edge.org/memberbio/timothy_d_wilson,https://psychology.as.virginia.edu/people/timothy-d-wilson
@@ -954,7 +954,7 @@ connections,1856,,https://epsteinwiki.com/knowledge-base/edge-foundation/;https:
 connections,1857,,https://epsteinwiki.com/knowledge-base/edge-foundation/;https://www.edge.org/memberbio/joseph_traub,https://www.edge.org/memberbio/joseph_traub
 connections,1858,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/steven_r_quartz
 connections,1859,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/david_c_queller
-connections,1860,,,https://edge.org/memberbio/mehmet_c_oz
+connections,1860,,https://www.justice.gov/epstein/files/DataSet%2010/EFTA01788803.pdf,https://edge.org/memberbio/mehmet_c_oz
 connections,1861,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/jessica_l_tracy
 connections,1862,,https://epsteinwiki.com/knowledge-base/edge-foundation/;https://www.edge.org/memberbio/eric_topol,https://www.edge.org/memberbio/eric_topol
 connections,1863,,https://epsteinwiki.com/knowledge-base/edge-foundation/,https://www.edge.org/memberbio/frank_tipler
